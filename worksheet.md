@@ -12,15 +12,13 @@
 |Day 6| Present  | Incomplete
 
 
-
-
 ## Project Description
 
 creating a site that shows my profile, projects, and contact information(Google)
 
 ## Google Sheet
 
-https://docs.google.com/spreadsheets/d/17pKLKcKpLI0lPHyigkDAjgCk2h_nSYcLOziO22KOGRQ/edit?usp=sharing
+[Google Sheet](https://docs.google.com/spreadsheets/d/1V1M3Eq1NXH2PNmeTlVviRhEjX9kenq769Vo2P5mMtro/edit#gid=0)
 
 ## Wireframes
 
