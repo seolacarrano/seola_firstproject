@@ -2,27 +2,23 @@
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
-
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Complete
-|Day 1| Wireframes / Priority Matrix / Timeline | Complete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 4| MVP & Bug Fixes | Incomplete
-|Day 5| Final Touches | Incomplete
-|Day 6| Present | Incomplete
+|Day 1| Project Description / Wireframes / Priority Matrix / Timeline| Complete
+|Day 2| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Day 3| MVP | Incomplete
+|Day 4| post MVP & Bug Fixes | Incomplete
+|Day 5| Final Touches  | Incomplete
+|Day 6| Present  | Incomplete
 
 
 ## Project Description
-
-creating a site that shows my profile, projects, and contact information(Google)
+It is a portfolio that shows my profile, projects and contact information.
+This portfolio is responsive to different devices such as mobile, tablet, and desktop. I'm going to use HTML, CSS and JavaScript jQuery for this project.
 
 ## Google Sheet
 
-https://docs.google.com/spreadsheets/d/17pKLKcKpLI0lPHyigkDAjgCk2h_nSYcLOziO22KOGRQ/edit?usp=sharing
+[Google Sheet](https://docs.google.com/spreadsheets/d/17pKLKcKpLI0lPHyigkDAjgCk2h_nSYcLOziO22KOGRQ/edit?usp=sharing)
 
 ## Wireframes
 
@@ -33,47 +29,55 @@ https://docs.google.com/spreadsheets/d/17pKLKcKpLI0lPHyigkDAjgCk2h_nSYcLOziO22KO
 
 
 ## Time/Priority Matrix 
-https://docs.google.com/presentation/d/1NXjgKb0sx3a8bXva7Sy3hEhXmCKah-mM6NvYDY1d13w/edit?usp=sharing
+[Matrix](https://docs.google.com/presentation/d/1NXjgKb0sx3a8bXva7Sy3hEhXmCKah-mM6NvYDY1d13w/edit?usp=sharing)
 
 #### MVP 
-- displaying project previews
-- loading projects
-- hamburger icon
-- contact section
+1. Make navigation menu 
+2. CSS/Grid for navigation menu
+3. Make the hamburger icon 
+4. Make About Me section 
+5. CSS/Grid for About Me 
+6. Make Project section 
+7. Grid/flex box for Project section 
+8. CSS for Project section 
+9. Make Contact section 
+9. CSS for Contact section
+10. Responsive to all screen sizes
+11. Project Carousel
+12. Deployment
+
+
 
 #### PostMVP 
-
-- social media icons in contact section
+1. social media icons in contact section
 
 ## Functional Components
-
-Based on the initial logic defined in the previous sections try and breakdown the logic further into functional components, and by that we mean functions.  Try and capture what logic would need to be defined if the game was broken down into the following categories.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe.
 
 #### MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Hamburger | H | 1hr | 1.5hr | -hr|
-| Project Previews | H | 3hr | -hr | -hr|
-| Regular Nav | H | H | -hr | -hr|
-| Adding Form | H | 1.5hr| -hr | -hr |
-| Other sections and flex| M | 4hr | 2hr | -hr|
-| Working with API | H | 3hrs| 2hr | -hr |
-| Responsive | H | 3hr | -hr | -hr|
-| Social Media Icons | L | 1hr | -hr | -hr|
-| Total | H | 15.5hrs| -hrs | -hrs |
+| make navigation menu | H | 2hrs | hr | hr|
+| CSS/Grid for navigation menu | H | 2hrs | hr | hr|
+| make the hamburger icon  | H | 2hrs | hr | hr|
+| make the hamburger icon expand | H | 2hrs | hr | hr|
+| make About Me section | H | 2hrs | hr | hr|
+| CSS/Grid for About Me | H | 2hrs | hr | hr|
+| make Project section | H | 1.5hrs| hr | hr |
+| grid/flex box for Project section | H | 2hrs| hr | hr |
+| CSS for Project section | H | 1.5hrs| hr | hr |
+| make Contact section | H | 2hrs| hr | hr |
+| css for Contact section | H | 1.5hrs| hr | hr |
+| Responsive to all screen sizes | H | 2hrs| hr | hr |
+| Project Carousel | H | 2hrs| hr | hr |
+| Deployment | H | 2hrs| hr | hr |
+| total | H | 28.5hrs| hr | hr |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Project Hover | L | 3hr | -hr | -hr|
-| Banner letters wiggle | L | 1hr | -hr | -hr|
-| Interactive Banner | M | 4hr | -hr | -hr|
-| Materialize | H | 4hr | -hr | -hr|
-| Bootstrap | H | 4hr | -hr | -hr|
-| Make own icon | L | 4hr | -hr | -hr|
-| Total | H | 20hrs| -hrs | -hrs |
+| social media icons in contact section | L | 1hr | -hr | -hr|
+| Documentation | L | 4hrs | -hr | -hr|
+| total | L | 5hrs | -hr | -hr|
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
