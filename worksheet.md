@@ -40,9 +40,13 @@ https://docs.google.com/presentation/d/1NXjgKb0sx3a8bXva7Sy3hEhXmCKah-mM6NvYDY1d
 #### MVP 
 1. make navigation menu 
 2. make the hamburger icon 
-3. make About Me section
-4. make Project section 
-5. make Contact section 
+3. make About Me section 
+4. CSS for About Me 
+5. make Project section 
+6. grid/flex box for Project section 
+7. CSS for Project section 
+8. make Contact section 
+9. css for Contact section
 
 
 #### PostMVP 
