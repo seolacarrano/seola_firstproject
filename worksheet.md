@@ -13,12 +13,13 @@
 
 
 ## Project Description
-
-creating a site that shows my profile, projects, and contact information(Google)
+It is a portfolio that shows my profile, projects and contact information.
+This portfolio is responsive to diferent devices such as mobile, tablet, and desktop. 
+I used HTML, CSS and JavaScript jQuery for this project.
 
 ## Google Sheet
 
-[Google Sheet](https://docs.google.com/spreadsheets/d/1V1M3Eq1NXH2PNmeTlVviRhEjX9kenq769Vo2P5mMtro/edit#gid=0)
+[Google Sheet](https://docs.google.com/spreadsheets/d/17pKLKcKpLI0lPHyigkDAjgCk2h_nSYcLOziO22KOGRQ/edit?usp=sharing)
 
 ## Wireframes
 
@@ -29,18 +30,23 @@ creating a site that shows my profile, projects, and contact information(Google)
 
 
 ## Time/Priority Matrix 
-https://docs.google.com/presentation/d/1NXjgKb0sx3a8bXva7Sy3hEhXmCKah-mM6NvYDY1d13w/edit?usp=sharing
+[Matrix](https://docs.google.com/presentation/d/1NXjgKb0sx3a8bXva7Sy3hEhXmCKah-mM6NvYDY1d13w/edit?usp=sharing)
 
 #### MVP 
-1. make navigation menu 
-2. make the hamburger icon 
-3. make About Me section 
-4. CSS for About Me 
-5. make Project section 
-6. grid/flex box for Project section 
-7. CSS for Project section 
-8. make Contact section 
-9. css for Contact section
+1. Make navigation menu 
+2. CSS/Grid for navigation menu
+3. Make the hamburger icon 
+4. Make About Me section 
+5. CSS/Grid for About Me 
+6. Make Project section 
+7. Grid/flex box for Project section 
+8. CSS for Project section 
+9. Make Contact section 
+9. CSS for Contact section
+10. Responsive to all screen sizes
+11. Project Carousel
+12. Deployment
+
 
 
 #### PostMVP 
@@ -52,19 +58,27 @@ https://docs.google.com/presentation/d/1NXjgKb0sx3a8bXva7Sy3hEhXmCKah-mM6NvYDY1d
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | make navigation menu | H | 2hrs | hr | hr|
+| CSS/Grid for navigation menu | H | 2hrs | hr | hr|
 | make the hamburger icon  | H | 2hrs | hr | hr|
+| make the hamburger icon expand | H | 2hrs | hr | hr|
 | make About Me section | H | 2hrs | hr | hr|
-| CSS for About Me | H | 1hr | hr | hr|
+| CSS/Grid for About Me | H | 2hrs | hr | hr|
 | make Project section | H | 1.5hrs| hr | hr |
 | grid/flex box for Project section | H | 2hrs| hr | hr |
 | CSS for Project section | H | 1.5hrs| hr | hr |
 | make Contact section | H | 2hrs| hr | hr |
 | css for Contact section | H | 1.5hrs| hr | hr |
+| Responsive to all screen sizes | H | 2hrs| hr | hr |
+| Project Carousel | H | 2hrs| hr | hr |
+| Deployment | H | 2hrs| hr | hr |
+| total | H | 28.5hrs| hr | hr |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | social media icons in contact section | L | 1hr | -hr | -hr|
+| Documentation | L | 4hrs | -hr | -hr|
+| total | L | 5hrs | -hr | -hr|
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
