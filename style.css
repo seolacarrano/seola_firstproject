@@ -1,0 +1,42 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    background: #f0a6ca;
+    color: #f0e6ef;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+li {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.title {
+    text-align: center;
+}
+
+#name {
+    margin: 0 auto;
+}
+
+#introduction{
+    margin: 0 auto;
+}
+
+.bar {
+    background: #b8bedd;
+    text-align: center;
+    color: #f0e6ef;
+}
+
+#aboutme {
+    text-align: center;
+}
