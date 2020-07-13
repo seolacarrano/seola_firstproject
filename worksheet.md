@@ -2,10 +2,6 @@
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
-
 |  Day | Deliverable | Status
 |---|---| ---|
 |Day 1| Project Description / Wireframes / Priority Matrix / Timeline| Complete
@@ -53,10 +49,6 @@ https://docs.google.com/presentation/d/1NXjgKb0sx3a8bXva7Sy3hEhXmCKah-mM6NvYDY1d
 1. social media icons in contact section
 
 ## Functional Components
-
-Based on the initial logic defined in the previous sections try and breakdown the logic further into functional components, and by that we mean functions.  Try and capture what logic would need to be defined if the game was broken down into the following categories.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe.
 
 #### MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
