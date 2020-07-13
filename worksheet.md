@@ -14,8 +14,7 @@
 
 ## Project Description
 It is a portfolio that shows my profile, projects and contact information.
-This portfolio is responsive to diferent devices such as mobile, tablet, and desktop. 
-I used HTML, CSS and JavaScript jQuery for this project.
+This portfolio is responsive to different devices such as mobile, tablet, and desktop. I'm going to use HTML, CSS and JavaScript jQuery for this project.
 
 ## Google Sheet
 
