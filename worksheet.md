@@ -10,10 +10,11 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |---|---| ---|
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline | Complete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 4| MVP & Bug Fixes | Incomplete
-|Day 5| Final Touches | Incomplete
-|Day 6| Present | Incomplete
+|Day 2| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Day 3| MVP & Bug Fixes | Incomplete
+|Day 4| Final Touches | Incomplete
+|Day 5| Present | Incomplete
+
 
 
 ## Project Description
@@ -64,7 +65,6 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | social media icons in contact section | L | 1hr | -hr | -hr|
-
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
