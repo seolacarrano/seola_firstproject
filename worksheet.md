@@ -56,8 +56,8 @@ This portfolio is responsive to different devices such as mobile, tablet, and de
 #### MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| make navigation menu | H | 2hrs | hr | hr|
-| CSS/Grid for navigation menu | H | 2hrs | hr | hr|
+| make navigation menu | H | 2hrs | 1hr | 1hr|
+| CSS/Grid for navigation menu | H | 2hrs | 0.5hr | 0.5hr|
 | make the hamburger icon  | H | 2hrs | hr | hr|
 | make the hamburger icon expand | H | 2hrs | hr | hr|
 | make About Me section | H | 2hrs | hr | hr|

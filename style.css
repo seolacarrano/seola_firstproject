@@ -23,6 +23,16 @@ li {
     text-align: center;
 }
 
+#picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+   }
+
 #name {
     margin: 0 auto;
 }
