@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&family=Modak&display=swap');
+
 header {
     display: flex;
     align-items: center;
@@ -5,6 +7,7 @@ header {
     flex-direction: row;
     background: #f0a6ca;
     color: #f0e6ef;
+   
 }
 
 ul {
@@ -12,6 +15,7 @@ ul {
     align-items: center;
     justify-content: flex-end;
     flex-direction: row;
+    font-family: 'Baloo Da 2', cursive;
 }
 
 li {
@@ -21,6 +25,8 @@ li {
 
 .title {
     text-align: center;
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 30px;
 }
 
 #picture {
@@ -30,21 +36,27 @@ li {
     width: 100%;
     height: auto;
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
    }
 
 #name {
-    margin: 0 auto;
+   margin: 0 auto;
+   
 }
 
 #introduction{
-    margin: 0 auto;
+   margin: 0 auto;
 }
 
 .bar {
     background: #b8bedd;
     text-align: center;
+    padding-top: 15px;
     color: #f0e6ef;
+    height: 50px;
+    font-family: "Lucida Console", Courier, monospace;
+    font-style: italix;
+    font-size: 30px;
 }
 
 #aboutme {
