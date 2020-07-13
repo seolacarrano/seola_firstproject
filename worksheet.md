@@ -56,7 +56,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | --- | :---: |  :---: | :---: | :---: |
 | displaying project previews| H | 2hrs | hr | hr|
 | loading projects | H | 1.5hrs | hr | hr|
-| hamburger icon| H | H | 2hrs | hr|
+| hamburger icon| H | 2hrs | hr | hr|
 | contact section | H | 1.5hr| hr | hr |
 
 
