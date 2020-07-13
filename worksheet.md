@@ -8,12 +8,13 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Complete
-|Day 1| Wireframes / Priority Matrix / Timeline | Complete
+|Day 1| Project Description / Wireframes / Priority Matrix / Timeline| Complete
 |Day 2| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 3| MVP & Bug Fixes | Incomplete
-|Day 4| Final Touches | Incomplete
-|Day 5| Present | Incomplete
+|Day 3| MVP | Incomplete
+|Day 4| post MVP & Bug Fixes | Incomplete
+|Day 5| Final Touches  | Incomplete
+|Day 6| Present  | Incomplete
+
 
 
 
@@ -37,14 +38,15 @@ https://docs.google.com/spreadsheets/d/17pKLKcKpLI0lPHyigkDAjgCk2h_nSYcLOziO22KO
 https://docs.google.com/presentation/d/1NXjgKb0sx3a8bXva7Sy3hEhXmCKah-mM6NvYDY1d13w/edit?usp=sharing
 
 #### MVP 
-- displaying project previews
-- loading projects
-- hamburger icon
-- contact section
+1. make navigation menu 
+2. make the hamburger icon 
+3. make About Me section
+4. make Project section 
+5. make Contact section 
+
 
 #### PostMVP 
-
-- social media icons in contact section
+1. social media icons in contact section
 
 ## Functional Components
 
@@ -55,11 +57,15 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| displaying project previews| H | 2hrs | hr | hr|
-| loading projects | H | 1.5hrs | hr | hr|
-| hamburger icon| H | 2hrs | hr | hr|
-| contact section | H | 1.5hr| hr | hr |
-
+| make navigation menu | H | 2hrs | hr | hr|
+| make the hamburger icon  | H | 2hrs | hr | hr|
+| make About Me section | H | 2hrs | hr | hr|
+| CSS for About Me | H | 1hr | hr | hr|
+| make Project section | H | 1.5hrs| hr | hr |
+| grid/flex box for Project section | H | 2hrs| hr | hr |
+| CSS for Project section | H | 1.5hrs| hr | hr |
+| make Contact section | H | 2hrs| hr | hr |
+| css for Contact section | H | 1.5hrs| hr | hr |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
