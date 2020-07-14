@@ -16,7 +16,8 @@ fetch(url)
         app(projects)
     })
 
-const app = (data) => {
+//project 
+    const app = (data) => {
    const createProjectElement = (project) => {
         const $div = $('<div>').addClass("preview")
         $div.append($('<h2>').addClass("nameofproject").text(project.title))
@@ -32,10 +33,10 @@ const app = (data) => {
    })
    }
 
-
+   
    //hamburger
    $( document ).ready(function() {
-
+       
     $( ".cross" ).hide();
     $( ".menu" ).hide();
     $( ".hamburger" ).click(function() {
@@ -51,5 +52,27 @@ const app = (data) => {
     $( ".hamburger" ).show();
     });
     });
-    
     });
+
+     
+    
+
+/*    
+//hamburger 
+const $hamburger = ('.hamburger');
+const $menu = ('.menu');
+let show = false;
+
+const showMenu = (e) => {
+    if (show){
+        $menu.each(function(index){
+            $(this).css('display','block')
+        })
+        show = false
+    }else{
+        $menu.each(function(index){
+            $(this).css('display','none')
+        })
+        show = true}
+    }
+    $hamburger.on('click', showMenu)*/

@@ -58,7 +58,7 @@ This portfolio is responsive to different devices such as mobile, tablet, and de
 | --- | :---: |  :---: | :---: | :---: |
 | make navigation menu | H | 2hrs | 1.5hrs | 1.5hrs|
 | CSS/Grid for navigation menu | H | 2hrs | 0.5hr | 0.5hr|
-| make the hamburger icon  | H | 2hrs | hr | hr|
+| make the hamburger icon  | H | 2hrs | 2hrs | 2hrs|
 | make the hamburger icon expand | H | 2hrs | hr | hr|
 | make About Me section | H | 2hrs | 0.5hr | 0.5hr|
 | CSS/Grid for About Me | H | 2hrs | 2hrs | 2hrs|
