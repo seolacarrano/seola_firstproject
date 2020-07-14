@@ -56,3 +56,6 @@ $hamburger.on('click', showMenu)
 
 
 //contact form
+//https://docs.google.com/forms/d/1EzwqrNUQupEry7gmbkpPd7soFmzwB1NywsHn1uCFUiY/edit#responses
+
+$("#contactform")
