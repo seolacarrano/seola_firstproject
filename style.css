@@ -50,33 +50,32 @@ header {
     z-index:10000000000000;
   }
 
+.menu {z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#f1f1f1;  position:absolute; text-align:center; font-size:12px;}
 
-
-
-
-
-
-
-
-
-  
 ul {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     flex-direction: row;
     font-family: 'Baloo Da 2', cursive;
+    list-style-type: none;
+    list-style-image: none;
 }
 
 li {
+    display: block;
     margin-left: 15px;
     margin-right: 15px;
 }
+
+li:hover {display: block; background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
 
 a {
     text-decoration: none;
     color: #f0e6ef;
 }
+
+.menu a:hover{text-decoration:none; color:#666;}
 
 .title {
     text-align: center;
