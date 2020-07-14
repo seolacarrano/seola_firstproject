@@ -17,6 +17,13 @@ header {
     padding: 0;
 }
 
+/*hamburger*/
+nav {
+    margin: 0;
+    padding: 0;
+}
+
+
 ul {
     display: flex;
     align-items: center;
