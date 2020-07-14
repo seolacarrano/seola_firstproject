@@ -1,3 +1,4 @@
+//project
 console.log($)
 
 const url = 'https://spreadsheets.google.com/feeds/list/1AoWEvjhyYWiYHNnYgOZ1R7Z-vJkL-je64IhKlZzsOOs/od6/public/values?alt=json'
@@ -16,8 +17,8 @@ fetch(url)
         app(projects)
     })
 
-//project 
-    const app = (data) => {
+
+   const app = (data) => {
    const createProjectElement = (project) => {
         const $div = $('<div>').addClass("preview")
         $div.append($('<h2>').addClass("nameofproject").text(project.title))
@@ -33,21 +34,25 @@ fetch(url)
    })
    }
 
-   const $hamburger = $('.hamburger');
-   const $links = $('.link');
-   let show = false;
-   
-   const showMenu = (event) => {
-       if (show){
-           $links.each(function(index){
-               $(this).css('display','none')
-           })
-           show = false
-       }else{
-           $links.each(function(index){
-               $(this).css('display','block')
-           })
-           show = true
-       }
-   }
-       $hamburger.on('click', showMenu)
+//hamburger icon
+const $hamburger = $('.hamburger');
+const $links = $('.link');
+let show = false;
+  
+const showMenu = (event) => {
+ if (show){
+ $links.each(function(index){
+  $(this).css('display','none')
+  })
+  show = false
+  }else{
+   $links.each(function(index){
+   $(this).css('display','block')
+   })
+  show = true
+  }
+}
+$hamburger.on('click', showMenu)
+
+
+//contact form
