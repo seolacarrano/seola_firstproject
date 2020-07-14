@@ -6,6 +6,11 @@ body {
     padding: 0;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -16,7 +21,6 @@ header {
     margin: 0;
     padding: 10;
 }
-
 
 ul {
     display: flex;
@@ -33,11 +37,13 @@ li {
     margin-right: 30px;
 }
 
-
-
 a {
     text-decoration: none;
     color: #f0e6ef;
+}
+
+.hamburger {
+    display: none;
 }
 
 .title {
@@ -148,13 +154,15 @@ a {
     font-weight: 300;
 }
 
-/*
-@media (min-width: 767px){
+@media (max-width: 767px) {
     .hamburger {
-        display: none;
-    }
-
-    .menu {
         display: block;
     }
-}*/
+    .link {
+        display: none;
+    }
+    nav {
+        width: 20%;
+        display: block;
+    }
+}

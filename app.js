@@ -33,67 +33,21 @@ fetch(url)
    })
    }
 
-   /*
-   //hamburger
-   $( document ).ready(function() {
-       
-    $( ".cross" ).hide();
-    $( ".menu" ).hide();
-    $( ".hamburger" ).click(function() {
-    $( ".menu" ).slideToggle( "slow", function() {
-    $( ".hamburger" ).hide();
-    $( ".cross" ).show();
-    });
-    });
-    
-    $( ".cross" ).click(function() {
-    $( ".menu" ).slideToggle( "slow", function() {
-    $( ".cross" ).hide();
-    $( ".hamburger" ).show();
-    });
-    });
-    });
-
-       
-   //hamburger
-   $( document ).ready(function() {
-       
-    $( ".cross" ).hide();
-    $( ".menu" ).hide();
-    $( ".hamburger" ).click(function() {
-    $( ".menu" ).slideToggle( "slow", function() {
-    $( ".hamburger" ).hide();
-    $( ".cross" ).show();
-    });
-    });
-    
-    $( ".cross" ).click(function() {
-    $( ".menu" ).slideToggle( "slow", function() {
-    $( ".cross" ).hide();
-    $( ".hamburger" ).show();
-    });
-    });
-    });
-
-     
-    
-
-/*    
-//hamburger 
-const $hamburger = ('.hamburger');
-const $menu = ('.menu');
-let show = false;
-
-const showMenu = (e) => {
-    if (show){
-        $menu.each(function(index){
-            $(this).css('display','block')
-        })
-        show = false
-    }else{
-        $menu.each(function(index){
-            $(this).css('display','none')
-        })
-        show = true}
-    }
-    $hamburger.on('click', showMenu)*/
+   const $hamburger = $('.hamburger');
+   const $links = $('.link');
+   let show = false;
+   
+   const showMenu = (event) => {
+       if (show){
+           $links.each(function(index){
+               $(this).css('display','none')
+           })
+           show = false
+       }else{
+           $links.each(function(index){
+               $(this).css('display','block')
+           })
+           show = true
+       }
+   }
+       $hamburger.on('click', showMenu)
