@@ -17,48 +17,6 @@ header {
     padding: 10;
 }
 
-.hamburger{
-    display: block;
-    background:none;
-    position:absolute;
-    top:0;
-    right:0;
-    line-height:45px;
-    padding:5px 15px 0px 15px;
-    color: #999;
-    border:0;
-    font-size:1.4em;
-    font-weight:bold;
-    cursor:pointer;
-    outline:none;
-    z-index:10000000000000;
-  }
-
-  .cross{
-    background: none;
-    position:absolute;
-    top:0;
-    padding:7px 15px 0px 15px;
-    color:#999;
-    border:0;
-    font-size:3em;
-    line-height:65px;
-    font-weight:bold;
-    cursor:pointer;
-    outline:none;
-    z-index:10000000000000;
-  }
-
-.menu {
-    display: none;
-    z-index:1000000; 
-    font-weight:bold; 
-    font-size:0.8em; 
-    width:100%; 
-    background: #f0a6ca;  
-    position:absolute; 
-    text-align:center; 
-    font-size:12px;}
 
 ul {
     display: flex;
@@ -66,8 +24,7 @@ ul {
     justify-content: flex-end;
     flex-direction: row;
     font-family: 'Baloo Da 2', cursive;
-    list-style-type: none;
-    list-style-image: none;
+
 }
 
 li {
@@ -76,18 +33,15 @@ li {
     margin-right: 30px;
 }
 
-li:hover {display: block; background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+
 
 a {
     text-decoration: none;
     color: #f0e6ef;
 }
 
-.menu a:hover{text-decoration:none; color:#666;}
-
 .title {
     text-align: center;
-    
 }
 
 #picture {
@@ -194,7 +148,7 @@ a {
     font-weight: 300;
 }
 
-
+/*
 @media (min-width: 767px){
     .hamburger {
         display: none;
@@ -203,4 +157,4 @@ a {
     .menu {
         display: block;
     }
-}
+}*/

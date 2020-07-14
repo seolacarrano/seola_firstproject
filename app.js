@@ -52,7 +52,7 @@ fetch(url)
     $( ".hamburger" ).show();
     });
     });
-    });*/
+    });
 
        
    //hamburger
