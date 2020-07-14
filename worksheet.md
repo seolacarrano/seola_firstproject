@@ -5,7 +5,7 @@
 |  Day | Deliverable | Status
 |---|---| ---|
 |Day 1| Project Description / Wireframes / Priority Matrix / Timeline| Complete
-|Day 2| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Day 2| Core Application Structure (HTML, CSS, etc.) | Complete
 |Day 3| MVP | Incomplete
 |Day 4| post MVP & Bug Fixes | Incomplete
 |Day 5| Final Touches  | Incomplete
@@ -56,12 +56,12 @@ This portfolio is responsive to different devices such as mobile, tablet, and de
 #### MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| make navigation menu | H | 2hrs | 1hr | 1hr|
+| make navigation menu | H | 2hrs | 1.5hrs | 1.5hrs|
 | CSS/Grid for navigation menu | H | 2hrs | 0.5hr | 0.5hr|
 | make the hamburger icon  | H | 2hrs | hr | hr|
 | make the hamburger icon expand | H | 2hrs | hr | hr|
 | make About Me section | H | 2hrs | 0.5hr | 0.5hr|
-| CSS/Grid for About Me | H | 2hrs | 1hr | 1hr|
+| CSS/Grid for About Me | H | 2hrs | 2hrs | 2hrs|
 | make Project section | H | 1.5hrs| 0.5hr | 0.5hr |
 | grid/flex box for Project section | H | 2hrs| hr | hr |
 | CSS for Project section | H | 1.5hrs| hr | hr |

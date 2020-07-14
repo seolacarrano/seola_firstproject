@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300;1,500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
 
 header {
     display: flex;
@@ -7,7 +13,8 @@ header {
     flex-direction: row;
     background: #f0a6ca;
     color: #f0e6ef;
-   
+    margin: 0;
+    padding: 0;
 }
 
 ul {
@@ -23,9 +30,14 @@ li {
     margin-right: 15px;
 }
 
+a {
+    text-decoration: none;
+    color: #f0e6ef;
+}
+
 .title {
     text-align: center;
-    font-family: 'Baloo Da 2', cursive;
+    
 }
 
 #picture {
@@ -36,16 +48,22 @@ li {
     height: auto;
     padding-top: 10px;
     padding-bottom: 10px;
+    border-radius: 50%;
    }
 
 #name {
    margin: 0 auto;
-   font-size: 50px;
+   font-size: 35px;
+   font-family: 'Roboto Mono', monospace;
+   font-weight: 500;
 }
 
 #introduction{
    margin: 0 auto;
-   font-size: 25px;
+   font-size: 20px;
+   font-family: 'Roboto Mono', monospace;
+   font-weight: 300;
+   
 }
 
 .bar {
@@ -62,10 +80,12 @@ li {
 #aboutme {
     text-align: center;
     font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
 }
 
 
-
+/*flexbox*/
 #projectpreview {
     display: flex;
     flex-wrap: wrap;
@@ -81,19 +101,11 @@ li {
     margin: auto;
 }
 
-/*.nameofproject {
-    display: grid;
-    grid-template-areas:
-    "firstline firstline firstline firstline"
-    "secondline . . ."
-    "thirdline thirdline thirdline thirdline"
-    ". . . fourthline"
-    "fifthline fifthline fifthline fifthline";
-    height: 300px;
-    width: 300px;
-}*/
-
 .imageofproject {
     height: 200px;
     width: 200px;
 }
+
+
+
+
