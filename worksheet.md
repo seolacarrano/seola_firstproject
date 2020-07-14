@@ -61,11 +61,11 @@ This portfolio is responsive to different devices such as mobile, tablet, and de
 | make the hamburger icon  | H | 2hrs | hr | hr|
 | make the hamburger icon expand | H | 2hrs | hr | hr|
 | make About Me section | H | 2hrs | 0.5hr | 0.5hr|
-| CSS/Grid for About Me | H | 2hrs | hr | hr|
-| make Project section | H | 1.5hrs| hr | hr |
+| CSS/Grid for About Me | H | 2hrs | 1hr | 1hr|
+| make Project section | H | 1.5hrs| 0.5hr | 0.5hr |
 | grid/flex box for Project section | H | 2hrs| hr | hr |
 | CSS for Project section | H | 1.5hrs| hr | hr |
-| make Contact section | H | 2hrs| hr | hr |
+| make Contact section | H | 2hrs| 0.5hr | 0.5hr |
 | css for Contact section | H | 1.5hrs| hr | hr |
 | Responsive to all screen sizes | H | 2hrs| hr | hr |
 | Project Carousel | H | 2hrs| hr | hr |
