@@ -85,7 +85,7 @@ a {
 }
 
 
-/*flexbox*/
+/*flexbox
 #projectpreview {
     display: flex;
     flex-wrap: wrap;
@@ -104,8 +104,43 @@ a {
 .imageofproject {
     height: 200px;
     width: 200px;
+}*/
+
+
+/*grid*/
+#projectpreview {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    justify-content: space-around;
 }
 
+.preview {
+    display: grid;
+    grid-template-columns: 1fr;
+    /*grid-template-rows: 1fr 1fr 1fr 1fr;*/
+   
+}
+.nameofproject {
+    display: grid;
+    /*grid-template-areas:
+    "nameofproject"
+    "imageofproject"
+    "description"
+    "linktoproject";*/
+   height: auto;
+   width: auto;
+   text-align: center;
+}
 
+.imageofproject {
+    height: 300px;
+    width: 300px;
+}
 
+.description {
+    width: 300px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+}
 
