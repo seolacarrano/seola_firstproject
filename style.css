@@ -77,7 +77,6 @@ a {
    font-size: 20px;
    font-family: 'Roboto Mono', monospace;
    font-weight: 300;
-   
 }
 
 .bar {
@@ -96,6 +95,7 @@ a {
     font-size: 20px;
     font-family: 'Roboto Mono', monospace;
     font-weight: 300;
+    padding-bottom: 50px;
 }
 
 
@@ -127,14 +127,15 @@ a {
     flex-wrap: wrap;
     flex-direction: row; 
     justify-content: space-around;
+    padding-bottom: 70px;
 }
 
 .preview {
     display: grid;
     grid-template-columns: 1fr;
-    /*grid-template-rows: 1fr 1fr 1fr 1fr;*/
-   
+    /*grid-template-rows: 1fr 1fr 1fr 1fr;*/   
 }
+
 .nameofproject {
     display: grid;
     /*grid-template-areas:
@@ -156,6 +157,11 @@ a {
     width: 300px;
     font-family: 'Roboto Mono', monospace;
     font-weight: 300;
+}
+
+#contactform {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
 }
 
 #iframe {
