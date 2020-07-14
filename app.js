@@ -58,4 +58,10 @@ $hamburger.on('click', showMenu)
 //contact form
 //https://docs.google.com/forms/d/1EzwqrNUQupEry7gmbkpPd7soFmzwB1NywsHn1uCFUiY/edit#responses
 
-$("#contactform")
+/*$(document).ready(function(){
+$("#contactform").attr('src', 'https://docs.google.com/forms/d/1EzwqrNUQupEry7gmbkpPd7soFmzwB1NywsHn1uCFUiY/edit#responses');
+});*/
+
+$(document).ready(function(){
+    $('#iframe').attr('src', 'https://docs.google.com/forms/d/1EzwqrNUQupEry7gmbkpPd7soFmzwB1NywsHn1uCFUiY/edit#responses');
+ });
