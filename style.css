@@ -100,7 +100,7 @@ a {
 
 /*grid*/
 #projectpreview {
-    
+    display: block;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row; 
@@ -144,6 +144,8 @@ a {
 
 /*carousel*/
 .slider {
+    display: none;
+    
     width: 350px;
     text-align: center;
     overflow: hidden;
@@ -207,8 +209,8 @@ a {
   }
 
 
-  /*responsive*/
-@media (max-width: 760px) {
+/*responsive*/
+@media (max-width: 375px) {
     .hamburger {
         display: block;
     }
@@ -219,7 +221,13 @@ a {
         width: 20%;
         display: block;
     }
-
+    
+    .slider {
+        display: block;
+    }
    
+     #projectpreview {
+         display: none;
+     }
 
 }
