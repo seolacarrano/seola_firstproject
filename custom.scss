@@ -1,3 +1,6 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&family=Modak&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300;1,500&display=swap');
 
@@ -82,7 +85,8 @@ a {
 .bar {
     background: #b8bedd;
     text-align: center;
-    padding-top: 15px;    
+    padding-top: 15px;
+    padding-bottom: 15px;
     color: #f0e6ef;
     height: 50px;
     font-family: "Lucida Console", Courier, monospace;
@@ -120,6 +124,15 @@ a {
     width: 200px;
 }*/
 
+/*This delete whole project section*/
+#Project {
+    display: block;
+}
+
+/*This delete carousel div*/
+#myCarousel {
+    display: none;
+}
 
 /*grid*/
 #projectpreview {
@@ -177,6 +190,15 @@ a {
         display: block;
     }
 
-   
+    #projectpreview {
+        display: none;
+    }
+    
+    #myCarousel {
+        display: block;
+        margin-bottom: 10px;
+    }
 
 }
+
+@import "bootstrap/scss/bootstrap";
