@@ -68,7 +68,7 @@ This portfolio is responsive to different devices such as mobile, tablet, and de
 | make Contact section | H | 2hrs| 2hrs | 2hrs |
 | css for Contact section | H | 1.5hrs| hr | hr |
 | Responsive to all screen sizes | H | 2hrs| hr | hr |
-| Project Carousel | H | 2hrs| hr | hr |
+| Project Carousel | H | 2hrs| 2.5hrs | 2.5hrs |
 | Deployment | H | 2hrs| hr | hr |
 | total | H | 28.5hrs| hr | hr |
 
