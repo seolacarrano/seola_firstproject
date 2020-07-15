@@ -98,29 +98,6 @@ a {
     padding-bottom: 50px;
 }
 
-
-/*flexbox
-#projectpreview {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row; 
-    justify-content: center;
-}
-
-.preview {
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    height: auto;
-    margin: auto;
-}
-
-.imageofproject {
-    height: 200px;
-    width: 200px;
-}*/
-
-
 /*grid*/
 #projectpreview {
     
@@ -174,14 +151,11 @@ a {
   
   .slides {
     display: flex;
-    align-items: center;
-    margin-left: 50px;
-    justify-content: center;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
-  }
+    }
 
   .slides::-webkit-scrollbar {
     width: 10px;
@@ -196,30 +170,13 @@ a {
   .slides::-webkit-scrollbar-track {
     background: transparent;
   }
-
-  .slides > div {
-    scroll-snap-align: start;
-    flex-shrink: 0;
-    width: 300px;
-    height: 300px;
-    margin-right: 50px;
-    border-radius: 10px;
-    background: #eee;
-    transform-origin: center center;
-    transform: scale(1);
-    transition: transform 0.5s;
-    position: relative;    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 100px;
-  }
-
+   
+  
   .slider > a {
     display: inline-flex;
     width: 1.5rem;
     height: 1.5rem;
-    background:black;
+    background: black;
     color: white;
     text-decoration: none;
     align-items: center;
@@ -228,12 +185,15 @@ a {
     margin: 0 0 0.5rem 0;
     position: relative;
   }
+
   .slider > a:active {
     top: 1px;
   }
+
   .slider > a:focus {
     background: #000;
   }
+  
 
   /* Don't need button navigation */
 @supports (scroll-snap-type) {
@@ -242,6 +202,8 @@ a {
     }
   }
 
+
+  /*responsive*/
 @media (max-width: 760px) {
     .hamburger {
         display: block;
