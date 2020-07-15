@@ -144,35 +144,39 @@ a {
 
 /*carousel*/
 .slider {
-    width: 300px;
+    width: 350px;
     text-align: center;
     overflow: hidden;
-  }
+}
   
-  .slides {
+.slides {
     display: flex;
+    justify-items: center;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
-    }
+}
 
-  .slides::-webkit-scrollbar {
+.slides > div {
+  margin-left: auto;
+}
+
+.slides::-webkit-scrollbar {
     width: 10px;
     height: 10px;
-  }
+}
 
-  .slides::-webkit-scrollbar-thumb {
+.slides::-webkit-scrollbar-thumb {
     background: black;
     border-radius: 10px;
-  }
+}
 
-  .slides::-webkit-scrollbar-track {
+.slides::-webkit-scrollbar-track {
     background: transparent;
-  }
+}
    
-  
-  .slider > a {
+.slider > a {
     display: inline-flex;
     width: 1.5rem;
     height: 1.5rem;
@@ -184,15 +188,15 @@ a {
     border-radius: 50%;
     margin: 0 0 0.5rem 0;
     position: relative;
-  }
+}
 
-  .slider > a:active {
+.slider > a:active {
     top: 1px;
-  }
+}
 
-  .slider > a:focus {
+.slider > a:focus {
     background: #000;
-  }
+}
   
 
   /* Don't need button navigation */
