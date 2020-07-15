@@ -90,6 +90,9 @@ a {
     padding-bottom: 50px;
 }
 
+.linktoproject {
+    color: black;
+}
 /*grid*/
 #projectpreview {
     display: block;
