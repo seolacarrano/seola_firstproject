@@ -55,9 +55,6 @@ const showMenu = (event) => {
 $hamburger.on('click', showMenu)
 
 
-//contact form
-$(document).ready(function(){
-    $('#iframe').attr('src', 'https://docs.google.com/forms/d/e/1FAIpQLSdhwDdBjrDuEXa71NfC7cCNWqkQfqv3JfoZjZrHEYHVxeihoA/viewform?embedded=true');
- });
+
 
  
