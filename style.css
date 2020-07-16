@@ -90,6 +90,11 @@ a {
     padding-bottom: 50px;
 }
 
+.LI-profile-badge {
+    display: flex;
+    justify-content: center;
+}
+
 .linktoproject {
     color: black;
 }
