@@ -97,6 +97,10 @@ a {
     text-align: center;
 }
 
+.fa-codepen:hover {
+    font-size: xxx-large;
+}
+
 /*grid*/
 #projectpreview {
     display: block;
