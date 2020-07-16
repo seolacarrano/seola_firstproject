@@ -31,6 +31,10 @@ li {
     margin-right: 30px;
 }
 
+li:hover {
+    font-size: x-large;
+}
+
 .link {
     display: block;
 }
@@ -200,44 +204,6 @@ a {
 
 
 /*Google contact form style*/
-
-/* on hover placeholder*/
-input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
- color: #e2dedb;
- font-size: 0.875em;
-}
-  
-input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
-  color: #cbc6c1;
-}
-  
-input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
-  color: #e2dedb;
-  font-size: 0.875em;
-}
-  
-input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
- color: #cbc6c1;
-}
-  
-input:hover::placeholder, textarea:hover::placeholder {
- color: #e2dedb;
- font-size: 0.875em;
-}
-  
-input:hover:focus::placeholder, textarea:hover:focus::placeholder {
- color: #cbc6c1;
-}
-  
-input:hover::placeholder, textarea:hover::placeholder {
- color: #e2dedb;
- font-size: 0.875em;
-}
-  
-input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
- color: #cbc6c1;
-}
-  
 #mG61Hd {
  display: flex;
  flex-direction: column;
@@ -256,12 +222,12 @@ input {
  border-bottom: none;
  transition: all 0.3s ease-in-out;
 }
-  
+
 input:hover {
  background: #f0e6ef;
  color:#b8bedd;
 }
-  
+
 textarea {
  display: flex;
  align-content: center;
@@ -281,25 +247,29 @@ textarea:hover {
  background:#f0e6ef;
  color: #e2dedb;
 }
-  
-#usersubmit {
- display: flex;
- align-content: center;
- width: 606px;
+ 
+#submit {
+ width: 50px;
  font-family: 'Roboto Mono', monospace;
  font-size: 0.875em;
- text-align: center;
+ text-align: right;
  color: #b3aca7;
  outline:none;
  cursor: pointer;
  border: solid 1px #b8bedd;
- border-top: none;
+ margin: auto;
+ margin-top: 10px;
 }
   
-#usersubmit:hover {
+#submit:hover {
  color: #e2dedb;
 }
+/*
+input[type=submit] {
+    margin: auto;
+}*/
 
+/*social media icons in footer*/
 footer {
     height: 60px;
     display: flex;
@@ -314,7 +284,7 @@ footer {
 }
 
 .fa-linkedin {
-    color: blue;
+    color: #2867B2;
     margin-right: 20px;
     margin-top: 20px;
 }

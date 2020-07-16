@@ -25,7 +25,6 @@ fetch(url)
         $div.append($('<img>').addClass("imageofproject").attr('src', project.image))
         $div.append($('<p>').addClass("description").text(project.description))
         $div.append($('<a>').attr('href', project.url).html('<i class="fab fa-codepen fa-2x"></i>'))
-        window.open("project.url", "_blank"); 
         //$div.append($('<a>').attr('href', project.url).html('<i class="fab fa-codepen fa-2x"></i>'))
         //$div.append($('<a>').addClass("linktoproject").attr('href', project.url).text('LINK >>>'))
         return $div
