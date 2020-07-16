@@ -91,6 +91,8 @@ a {
 }
 
 .fa-codepen {
+    display: flex;
+    justify-content: center;
     color: black;
     text-align: center;
 }
