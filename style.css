@@ -204,6 +204,12 @@ a {
 
 
 /*Google contact form style*/
+
+::placeholder {
+    font-family: 'Roboto Mono', monospace;
+    color: darkgrey;
+}
+
 #mG61Hd {
  display: flex;
  flex-direction: column;
@@ -212,9 +218,11 @@ a {
 }
 
 input {
+ font-family: 'Roboto Mono', monospace;
  display: flex;
  align-content: center;
- width: 600px;
+ width: 100%;
+ max-width: 600px;
  height: 50px;
  background: transparent;
  outline: none;
@@ -229,9 +237,12 @@ input:hover {
 }
 
 textarea {
+ padding-top: 5px;
+ font-family: 'Roboto Mono', monospace;
  display: flex;
  align-content: center;
- width: 600px;
+ width: 100%;
+ max-width: 600px;
  height: 110px;
  max-height: 110px;
  background: transparent;
@@ -262,12 +273,9 @@ textarea:hover {
 }
   
 #submit:hover {
- color: #e2dedb;
+ background: #b8bedd;
 }
-/*
-input[type=submit] {
-    margin: auto;
-}*/
+
 
 /*social media icons in footer*/
 footer {
@@ -325,8 +333,9 @@ footer {
          margin: 0 15 0 15;
      }
      #submit {
-         width: 307px;
-         margin: 0 15 0 15;
+        width: 50px;
+        margin: auto;
+        margin-top: 10px;
      }
 
 }
