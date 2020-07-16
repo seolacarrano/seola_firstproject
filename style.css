@@ -244,7 +244,7 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
  flex-direction: column;
  flex-wrap: wrap;
  align-items: center;
- margin-bottom: 100px;
+ margin-bottom: 30px;
  /*position: relative;
  width: 370px;
  margin: 50px auto 100px auto;*/
@@ -316,7 +316,15 @@ textarea:hover {
  color: #e2dedb;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    background: #f0e6ef;
+}
 
+#fabfa-linkedinfa-2x {    
+ background: #f0e6ef;
+}
 
 
 /*responsive*/
