@@ -245,9 +245,13 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
  width: 370px;
  margin: 50px auto 100px auto;
 }
+
+.googleform {
+  width: 336px;
+}
   
 input {
- width: 336px;
+ 
  height: 50px;
  padding: 0px 15px 0px 15px;
  background: transparent;
@@ -266,15 +270,14 @@ input:hover {
 }
   
 textarea {
- width: 336px;
- max-width: 360px;
+ 
  height: 110px;
  max-height: 110px;
  padding: 15px;
  background: transparent;
  outline: none;
  color: #726659;
- font-family: 'Lato', sans-serif;
+ font-family: 'Roboto Mono', monospace;
  font-size: 0.875em;
  border: solid 1px#b8bedd;
  transition: all 0.3s ease-in-out;
@@ -292,7 +295,7 @@ textarea:hover {
  width: 367px;
  padding: 0;
  margin: -5px 0px 0px 0px;
- font-family: 'Lato', sans-serif;
+ font-family: 'Roboto Mono', monospace;
  font-size: 0.875em;
  color: #b3aca7;
  outline:none;
