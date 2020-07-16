@@ -315,7 +315,7 @@ textarea:hover {
 
 
 /*responsive*/
-@media (max-width: 377px) {
+@media (max-width: 375px) {
     .hamburger {
         display: block;
     }
