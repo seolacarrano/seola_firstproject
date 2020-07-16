@@ -66,16 +66,16 @@ This portfolio is responsive to different devices such as mobile, tablet, and de
 | grid/flex box for Project section | H | 2hrs| 2hrs | 2hrs |
 | CSS for Project section | H | 1.5hrs| 1hr | 1hr |
 | make Contact section | H | 2hrs| 2hrs | 2hrs |
-| css for Contact section | H | 1.5hrs| 4hrs | 4hrs |
-| Responsive to all screen sizes | H | 2hrs| hr | hr |
+| css for Contact section | H | 1.5hrs| 5hrs | 5hrs |
+| Responsive to all screen sizes | H | 2hrs| 2hrs | 2hrs |
 | Project Carousel | H | 2hrs| 2.5hrs | 2.5hrs |
-| Deployment | H | 2hrs| hr | hr |
+| Deployment | H | 2hrs| 0.5hr | 0.5hr |
 | total | H | 28.5hrs| hr | hr |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| social media icons in contact section | L | 1hr | -hr | -hr|
+| social media icons in contact section | L | 1hr | 1hr | 1hr|
 | Documentation | L | 4hrs | -hr | -hr|
 | total | L | 5hrs | -hr | -hr|
 

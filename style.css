@@ -90,14 +90,10 @@ a {
     padding-bottom: 50px;
 }
 
-.LI-profile-badge {
-    display: flex;
-    justify-content: center;
-}
-
 .linktoproject {
     color: black;
 }
+
 /*grid*/
 #projectpreview {
     display: block;
@@ -131,10 +127,6 @@ a {
     font-weight: 300;
 }
 
-#contactform {
-    text-align: center;
-    font-family: 'Roboto Mono', monospace;
-}
 
 /*carousel*/
 .slider {
@@ -242,30 +234,20 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
 #mG61Hd {
  display: flex;
  flex-direction: column;
- flex-wrap: wrap;
  align-items: center;
  margin-bottom: 30px;
- /*position: relative;
- width: 370px;
- margin: 50px auto 100px auto;*/
 }
 
-
-  
 input {
-display: flex;
-align-content: center;
+ display: flex;
+ align-content: center;
  width: 600px;
  height: 50px;
- /*padding: 0px 15px 0px 15px;*/
  background: transparent;
  outline: none;
  border: solid 1px #b8bedd;
  border-bottom: none;
  transition: all 0.3s ease-in-out;
-/* -webkit-transition: all 0.3s ease-in-out;
- -moz-transition: all 0.3s ease-in-out;
- -ms-transition: all 0.3s ease-in-out;*/
 }
   
 input:hover {
@@ -279,7 +261,6 @@ textarea {
  width: 600px;
  height: 110px;
  max-height: 110px;
-/* padding: 15px;*/
  background: transparent;
  outline: none;
  color: #726659;
@@ -287,9 +268,6 @@ textarea {
  font-size: 0.875em;
  border: solid 1px#b8bedd;
  transition: all 0.3s ease-in-out;
- /*-webkit-transition: all 0.3s ease-in-out;
- -moz-transition: all 0.3s ease-in-out;
- -ms-transition: all 0.3s ease-in-out;*/
  }
   
 textarea:hover {
@@ -297,14 +275,13 @@ textarea:hover {
  color: #e2dedb;
 }
   
-#submit {
+#usersubmit {
  display: flex;
  align-content: center;
- width: 608px;
- padding: 0;
- margin: 0px 0px 0px 0px;
+ width: 606px;
  font-family: 'Roboto Mono', monospace;
  font-size: 0.875em;
+ text-align: center;
  color: #b3aca7;
  outline:none;
  cursor: pointer;
@@ -312,7 +289,7 @@ textarea:hover {
  border-top: none;
 }
   
-#submit:hover {
+#usersubmit:hover {
  color: #e2dedb;
 }
 
