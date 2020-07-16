@@ -317,13 +317,27 @@ textarea:hover {
 }
 
 footer {
+    height: 60px;
     display: flex;
     justify-content: center;
     background: #f0e6ef;
 }
 
-#fabfa-linkedinfa-2x {    
- background: #f0e6ef;
+.fa-envelope {
+    color: red;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.fa-linkedin {
+    color: blue;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.fa-github {
+    color: black;
+    margin-top: 20px;
 }
 
 
