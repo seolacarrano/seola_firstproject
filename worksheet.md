@@ -80,7 +80,12 @@ This portfolio is responsive to different devices such as mobile, tablet, and de
 | total | L | 5hrs | -hr | -hr|
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
+ hamburger icon: https://graphemica.com
+ social media icons: https://fontawesome.com
+ carousel: https://css-tricks.com/css-only-carousel
+ Google form: https://www.youtube.com/watch?v=0ZobsvqYA94 / https://codepen.io/matmarsiglio/pen/HLIor
+ jQuery for Project: https://git.generalassemb.ly/seolacarrano/JSON-and-jQuery
+ hamburger icon HTML&CSS: https://www.youtube.com/watch?v=1GeSOP7kHuw
 
 ## Code Snippet
 
@@ -99,6 +104,4 @@ function reverse(string) {
 **ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
 **RESOLUTION**: Missing comma after first object in sources {} object
 
-## Previous Project Worksheet
- - [Readme's](https://github.com/jkeohan/fewd-class-repo/tree/master/final-project-worksheet/project-worksheet-examples)
- - [Best of class readme](https://github.com/jkeohan/fewd-class-repo/blob/master/final-project-worksheet/project-worksheet-examples/portfolio-gracie.md)
+
