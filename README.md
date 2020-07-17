@@ -6,9 +6,9 @@
 |---|---| ---|
 |Day 1| Project Description / Wireframes / Priority Matrix / Timeline| Complete
 |Day 2| Core Application Structure (HTML, CSS, etc.) | Complete
-|Day 3| MVP | Incomplete
-|Day 4| post MVP & Bug Fixes | Incomplete
-|Day 5| Final Touches  | Incomplete
+|Day 3| MVP | Complete
+|Day 4| post MVP & Bug Fixes | Complete
+|Day 5| Final Touches  | Complete
 |Day 6| Present  | Incomplete
 
 
@@ -60,9 +60,9 @@ This portfolio is responsive to different devices such as mobile, tablet, and de
 | CSS/Grid for navigation menu | H | 2hrs | 1.5hr | 1.5hr|
 | make the hamburger icon  | H | 2hrs | 2hrs | 2hrs|
 | make the hamburger icon expand | H | 2hrs | 3hrs | 3hrs|
-| make About Me section | H | 2hrs | 1.5hr | 1.5hr|
+| make About Me section | H | 2hrs | 1hr | 1hr|
 | CSS/Grid for About Me | H | 2hrs | 2hrs | 2hrs|
-| make Project section | H | 1.5hrs| 1.5hr | 1.5hr |
+| make Project section | H | 1.5hrs| 1hr | 1hr |
 | grid/flex box for Project section | H | 2hrs| 2hrs | 2hrs |
 | CSS for Project section | H | 1.5hrs| 2hrs | 2hrs |
 | make Contact section | H | 2hrs| 2hrs | 2hrs |
@@ -70,7 +70,7 @@ This portfolio is responsive to different devices such as mobile, tablet, and de
 | Responsive to all screen sizes | H | 2hrs| 2hrs | 2hrs |
 | Project Carousel | H | 2hrs| 2.5hrs | 2.5hrs |
 | Deployment | H | 2hrs| 0.5hr | 0.5hr |
-| total | H | 28.5hrs| 29hrs | 29hrs |
+| total | H | 28.5hrs| 28hrs | 28hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
@@ -89,20 +89,16 @@ This portfolio is responsive to different devices such as mobile, tablet, and de
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
-
-```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
-```
+  $div.append($('<a>').attr('href', project.url).html('<i class="fab fa-codepen fa-2x"></i>'))
+  $('a').attr('target', '_blank')  
+    
+ jQuery is still intimidating but I spent some time reading about it to add icon and I was able to do it! 
+ Also, I was able to open a link in a new tab by using .attr('target', '_blank')
+ 
 
 ## Issues and Resolutions
-**ERROR**: 
-**RESOLUTION**:
+**ERROR**: I didn't get any error message regarding this problem, but when I tried to use Bootstrap for carousel, my CSS was broken down
+**RESOLUTION**: I used CSS and HTML instead.
 
-#### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object
 
 
