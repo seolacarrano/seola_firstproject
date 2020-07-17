@@ -101,8 +101,8 @@ This portfolio is responsive to different devices such as mobile, tablet, and de
 **RESOLUTION**: I used CSS and HTML instead.
 
 ## final design
-[mobile] (https://res.cloudinary.com/dqduwnrb1/image/upload/v1595014572/mobile_ykyoyf.jpg)
-[tablet] (https://res.cloudinary.com/dqduwnrb1/image/upload/v1595014572/tablet_cchv1c.jpg)
-[desktop] (https://res.cloudinary.com/dqduwnrb1/image/upload/v1595014572/desktop_xsnyhu.jpg)
+[mobile](https://res.cloudinary.com/dqduwnrb1/image/upload/v1595014572/mobile_ykyoyf.jpg)
+[tablet](https://res.cloudinary.com/dqduwnrb1/image/upload/v1595014572/tablet_cchv1c.jpg)
+[desktop](https://res.cloudinary.com/dqduwnrb1/image/upload/v1595014572/desktop_xsnyhu.jpg)
 
 
