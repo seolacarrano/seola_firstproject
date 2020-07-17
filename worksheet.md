@@ -57,12 +57,12 @@ This portfolio is responsive to different devices such as mobile, tablet, and de
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | make navigation menu | H | 2hrs | 1.5hrs | 1.5hrs|
-| CSS/Grid for navigation menu | H | 2hrs | 0.5hr | 0.5hr|
+| CSS/Grid for navigation menu | H | 2hrs | 1.5hr | 1.5hr|
 | make the hamburger icon  | H | 2hrs | 2hrs | 2hrs|
 | make the hamburger icon expand | H | 2hrs | 3hrs | 3hrs|
-| make About Me section | H | 2hrs | 0.5hr | 0.5hr|
+| make About Me section | H | 2hrs | 1.5hr | 1.5hr|
 | CSS/Grid for About Me | H | 2hrs | 2hrs | 2hrs|
-| make Project section | H | 1.5hrs| 0.5hr | 0.5hr |
+| make Project section | H | 1.5hrs| 1.5hr | 1.5hr |
 | grid/flex box for Project section | H | 2hrs| 2hrs | 2hrs |
 | CSS for Project section | H | 1.5hrs| 2hrs | 2hrs |
 | make Contact section | H | 2hrs| 2hrs | 2hrs |
@@ -70,7 +70,7 @@ This portfolio is responsive to different devices such as mobile, tablet, and de
 | Responsive to all screen sizes | H | 2hrs| 2hrs | 2hrs |
 | Project Carousel | H | 2hrs| 2.5hrs | 2.5hrs |
 | Deployment | H | 2hrs| 0.5hr | 0.5hr |
-| total | H | 28.5hrs| hr | hr |
+| total | H | 28.5hrs| 29hrs | 29hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
