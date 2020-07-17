@@ -76,8 +76,8 @@ This portfolio is responsive to different devices such as mobile, tablet, and de
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | social media icons in contact section | L | 1hr | 1hr | 1hr|
-| Documentation | L | 4hrs | -hr | -hr|
-| total | L | 5hrs | -hr | -hr|
+| Documentation | L | 4hrs | 4hrs | 4hrs|
+| total | L | 5hrs | 5hr | 5hr|
 
 ## Additional Libraries
  hamburger icon: https://graphemica.com
@@ -89,8 +89,8 @@ This portfolio is responsive to different devices such as mobile, tablet, and de
 
 ## Code Snippet
 
-  $div.append($('<a>').attr('href', project.url).html('<i class="fab fa-codepen fa-2x"></i>'))
-  $('a').attr('target', '_blank')  
+ $div.append($('<a>').addClass("linktoproject").attr('href', project.url).html('<i class="fab fa-codepen fa-2x"></i>'))
+ $('.linktoproject').attr('target', '_blank') 
     
  jQuery is still intimidating but I spent some time reading about it to add icon and I was able to do it! 
  Also, I was able to open a link in a new tab by using .attr('target', '_blank')
