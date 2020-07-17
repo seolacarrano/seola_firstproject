@@ -80,12 +80,12 @@ This portfolio is responsive to different devices such as mobile, tablet, and de
 | total | L | 5hrs | 5hr | 5hr|
 
 ## Additional Libraries
- hamburger icon: https://graphemica.com
- social media icons: https://fontawesome.com
- carousel: https://css-tricks.com/css-only-carousel
- Google form: https://www.youtube.com/watch?v=0ZobsvqYA94 / https://codepen.io/matmarsiglio/pen/HLIor
- jQuery for Project: https://git.generalassemb.ly/seolacarrano/JSON-and-jQuery
- hamburger icon HTML&CSS: https://www.youtube.com/watch?v=1GeSOP7kHuw
+ 1. hamburger icon: https://graphemica.com
+ 2. social media icons: https://fontawesome.com
+ 3. carousel: https://css-tricks.com/css-only-carousel
+ 4. Google form: https://www.youtube.com/watch?v=0ZobsvqYA94 / https://codepen.io/matmarsiglio/pen/HLIor
+ 5. jQuery for Project: https://git.generalassemb.ly/seolacarrano/JSON-and-jQuery
+ 6. hamburger icon HTML&CSS: https://www.youtube.com/watch?v=1GeSOP7kHuw
 
 ## Code Snippet
 
@@ -100,5 +100,9 @@ This portfolio is responsive to different devices such as mobile, tablet, and de
 **ERROR**: I didn't get any error message regarding this problem, but when I tried to use Bootstrap for carousel, my CSS was broken down
 **RESOLUTION**: I used CSS and HTML instead.
 
+## final design
+[mobile] (https://res.cloudinary.com/dqduwnrb1/image/upload/v1595014572/mobile_ykyoyf.jpg)
+[tablet] (https://res.cloudinary.com/dqduwnrb1/image/upload/v1595014572/tablet_cchv1c.jpg)
+[desktop] (https://res.cloudinary.com/dqduwnrb1/image/upload/v1595014572/desktop_xsnyhu.jpg)
 
 
