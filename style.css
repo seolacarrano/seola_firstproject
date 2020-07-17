@@ -222,7 +222,7 @@ input {
  font-family: 'Roboto Mono', monospace;
  display: flex;
  align-content: center;
- width: 100%;
+ width: 80%;
  max-width: 600px;
  height: 50px;
  background: transparent;
@@ -242,7 +242,7 @@ textarea {
  font-family: 'Roboto Mono', monospace;
  display: flex;
  align-content: center;
- width: 100%;
+ width: 80%;
  max-width: 600px;
  height: 110px;
  max-height: 110px;
