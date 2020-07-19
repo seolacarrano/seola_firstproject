@@ -140,7 +140,7 @@ a {
 }
 
 
-/*carousel*/
+/*carousel https://css-tricks.com/css-only-carousel*/
 .slider {
  display: none;
  width: 350px;
@@ -204,7 +204,7 @@ a {
 }
 
 
-/*Google contact form style*/
+/*Google contact form style https://codepen.io/matmarsiglio/pen/HLIor*/
 
 ::placeholder {
  font-family: 'Roboto Mono', monospace;

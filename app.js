@@ -1,4 +1,4 @@
-//project
+//project https://git.generalassemb.ly/seolacarrano/JSON-and-jQuery
 console.log($)
 
 const url = 'https://spreadsheets.google.com/feeds/list/1AoWEvjhyYWiYHNnYgOZ1R7Z-vJkL-je64IhKlZzsOOs/od6/public/values?alt=json'
@@ -37,7 +37,7 @@ fetch(url)
    })
    }
 
-//hamburger icon
+//hamburger icon https://www.youtube.com/watch?v=1GeSOP7kHuw
 const $hamburger = $('.hamburger');
 const $links = $('.link');
 let show = false;
