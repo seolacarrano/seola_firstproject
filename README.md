@@ -80,7 +80,9 @@ This portfolio is responsive to different devices such as mobile, tablet, and de
 | total | L | 5hrs | 5hr | 5hr|
 
 ## Additional Libraries
- - [jQuery](https://git.generalassemb.ly/seolacarrano/JSON-and-jQuery)
+ - [jQuery](https://jquery.com/)
+ - [Graphemica](https://graphemica.com/)
+ - [FontAwesome](https://fontawesome.com/)
  
 
 ## Code Snippet
