@@ -105,7 +105,7 @@ This portfolio is responsive to different devices such as mobile, tablet, and de
 - [tablet](https://res.cloudinary.com/dqduwnrb1/image/upload/v1595014572/tablet_cchv1c.jpg)
 - [desktop](https://res.cloudinary.com/dqduwnrb1/image/upload/v1595014572/desktop_xsnyhu.jpg)
 
-## blog posting
+## blog post
 - [blog](https://seolac.wordpress.com/2020/07/19/portfolio-project/)
 
 
