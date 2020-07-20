@@ -108,4 +108,7 @@ This portfolio is responsive to different devices such as mobile, tablet, and de
 ## blog post
 - [blog](https://seolac.wordpress.com/2020/07/19/portfolio-project/)
 
+## final website
+- [website](https://app.netlify.com/sites/seolacarrano-portfolio/settings/domain)
+
 
