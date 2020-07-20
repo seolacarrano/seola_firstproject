@@ -80,12 +80,8 @@ This portfolio is responsive to different devices such as mobile, tablet, and de
 | total | L | 5hrs | 5hr | 5hr|
 
 ## Additional Libraries
- 1. hamburger icon: https://graphemica.com
- 2. social media icons: https://fontawesome.com
- 3. carousel: https://css-tricks.com/css-only-carousel
- 4. Google form: https://codepen.io/matmarsiglio/pen/HLIor
- 5. jQuery for Project: https://git.generalassemb.ly/seolacarrano/JSON-and-jQuery
- 6. hamburger icon HTML&CSS: https://www.youtube.com/watch?v=1GeSOP7kHuw
+ - [jQuery](https://git.generalassemb.ly/seolacarrano/JSON-and-jQuery)
+ 
 
 ## Code Snippet
 
