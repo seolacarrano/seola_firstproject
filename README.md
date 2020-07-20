@@ -84,9 +84,10 @@ This portfolio is responsive to different devices such as mobile, tablet, and de
  
 
 ## Code Snippet
-
+```js
  $div.append($('<a>').addClass("linktoproject").attr('href', project.url).html('<i class="fab fa-codepen fa-2x"></i>'))
  $('.linktoproject').attr('target', '_blank') 
+ ```
     
  jQuery is still intimidating but I spent some time reading about it to add icon and I was able to do it! 
  Also, I was able to open a link in a new tab by using .attr('target', '_blank')
