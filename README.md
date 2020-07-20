@@ -9,7 +9,7 @@
 |Day 3| MVP | Complete
 |Day 4| post MVP & Bug Fixes | Complete
 |Day 5| Final Touches  | Complete
-|Day 6| Present  | Incomplete
+|Day 6| Present  | Complete
 
 
 ## Project Description
