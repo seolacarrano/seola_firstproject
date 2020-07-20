@@ -99,15 +99,12 @@ This portfolio is responsive to different devices such as mobile, tablet, and de
 **ERROR**: I didn't get any error message regarding this problem, but when I tried to use Bootstrap for carousel, my CSS was broken down
 **RESOLUTION**: I used CSS and HTML instead.
 
-## final design
-- [mobile](https://res.cloudinary.com/dqduwnrb1/image/upload/v1595014572/mobile_ykyoyf.jpg)
-- [tablet](https://res.cloudinary.com/dqduwnrb1/image/upload/v1595014572/tablet_cchv1c.jpg)
-- [desktop](https://res.cloudinary.com/dqduwnrb1/image/upload/v1595014572/desktop_xsnyhu.jpg)
 
 ## blog post
 - [blog](https://seolac.wordpress.com/2020/07/19/portfolio-project/)
 
-## project
-- [website](https://app.netlify.com/sites/seolacarrano-portfolio/settings/domain)
+
+## Final Website
+- [project](https://app.netlify.com/sites/seolacarrano-portfolio/settings/domain)
 
 
