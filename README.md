@@ -1,5 +1,8 @@
 # Project Overview
 
+## Link 
+- [Portfolio](https://seolacarrano-portfolio.netlify.app/)
+
 ## Project Schedule
 
 |  Day | Deliverable | Status
@@ -9,7 +12,7 @@
 |Day 3| MVP | Complete
 |Day 4| post MVP & Bug Fixes | Complete
 |Day 5| Final Touches  | Complete
-|Day 6| Present  | Incomplete
+|Day 6| Present  | Complete
 
 
 ## Project Description
@@ -80,17 +83,16 @@ This portfolio is responsive to different devices such as mobile, tablet, and de
 | total | L | 5hrs | 5hr | 5hr|
 
 ## Additional Libraries
- 1. hamburger icon: https://graphemica.com
- 2. social media icons: https://fontawesome.com
- 3. carousel: https://css-tricks.com/css-only-carousel
- 4. Google form: https://codepen.io/matmarsiglio/pen/HLIor
- 5. jQuery for Project: https://git.generalassemb.ly/seolacarrano/JSON-and-jQuery
- 6. hamburger icon HTML&CSS: https://www.youtube.com/watch?v=1GeSOP7kHuw
+ - [jQuery](https://jquery.com/)
+ - [Graphemica](https://graphemica.com/)
+ - [FontAwesome](https://fontawesome.com/)
+ 
 
 ## Code Snippet
-
+```js
  $div.append($('<a>').addClass("linktoproject").attr('href', project.url).html('<i class="fab fa-codepen fa-2x"></i>'))
  $('.linktoproject').attr('target', '_blank') 
+ ```
     
  jQuery is still intimidating but I spent some time reading about it to add icon and I was able to do it! 
  Also, I was able to open a link in a new tab by using .attr('target', '_blank')
@@ -100,12 +102,5 @@ This portfolio is responsive to different devices such as mobile, tablet, and de
 **ERROR**: I didn't get any error message regarding this problem, but when I tried to use Bootstrap for carousel, my CSS was broken down
 **RESOLUTION**: I used CSS and HTML instead.
 
-## final design
-- [mobile](https://res.cloudinary.com/dqduwnrb1/image/upload/v1595014572/mobile_ykyoyf.jpg)
-- [tablet](https://res.cloudinary.com/dqduwnrb1/image/upload/v1595014572/tablet_cchv1c.jpg)
-- [desktop](https://res.cloudinary.com/dqduwnrb1/image/upload/v1595014572/desktop_xsnyhu.jpg)
-
-## blog post
-- [blog](https://seolac.wordpress.com/2020/07/19/portfolio-project/)
 
 
