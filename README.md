@@ -103,4 +103,7 @@ This portfolio is responsive to different devices such as mobile, tablet, and de
 **RESOLUTION**: I used CSS and HTML instead.
 
 
+## Final Website
+- [project](https://app.netlify.com/sites/seolacarrano-portfolio/settings/domain)
+
 
