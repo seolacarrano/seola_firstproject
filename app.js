@@ -1,4 +1,44 @@
-//project https://git.generalassemb.ly/seolacarrano/JSON-and-jQuery
+// -----------sticky nav bar------------------
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+
+// ---------hamburger icon----------
+const $hamburger = $('.hamburger');
+const $links = $('.link');
+let show = false;
+  
+const showMenu = (event) => {
+ if (show){
+ $links.each(function(index){
+  $(this).css('display','none')
+  })
+  show = false
+  }else{
+   $links.each(function(index){
+   $(this).css('display','block')
+   })
+  show = true
+  }
+}
+$hamburger.on('click', showMenu)
+
+
+// ---------project---------
 console.log($)
 
 const url = 'https://spreadsheets.google.com/feeds/list/1AoWEvjhyYWiYHNnYgOZ1R7Z-vJkL-je64IhKlZzsOOs/od6/public/values?alt=json'
@@ -21,7 +61,7 @@ fetch(url)
    const app = (data) => {
    const createProjectElement = (project) => {
         const $div = $('<div>').addClass("preview")
-        $div.append($('<h2>').addClass("nameofproject").text(project.title))
+        // $div.append($('<h2>').addClass("nameofproject").text(project.title))
         $div.append($('<img>').addClass("imageofproject").attr('src', project.image))
         $div.append($('<p>').addClass("description").text(project.description))
         $div.append($('<a>').addClass("linktoproject").attr('href', project.url).html('<i class="fab fa-codepen fa-2x"></i>'))
@@ -33,29 +73,12 @@ fetch(url)
 
     data.forEach( project => {
        const $projectDiv = createProjectElement(project)
-       $('#projectpreview').append($projectDiv)
+       $('#project-container').append($projectDiv)
    })
    }
 
-//hamburger icon https://www.youtube.com/watch?v=1GeSOP7kHuw
-const $hamburger = $('.hamburger');
-const $links = $('.link');
-let show = false;
-  
-const showMenu = (event) => {
- if (show){
- $links.each(function(index){
-  $(this).css('display','none')
-  })
-  show = false
-  }else{
-   $links.each(function(index){
-   $(this).css('display','block')
-   })
-  show = true
-  }
-}
-$hamburger.on('click', showMenu)
+
+
 
 
 

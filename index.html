@@ -1,34 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-172971484-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-172971484-1');
-</script>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Seola Portfolio</title>
- <script src="https://kit.fontawesome.com/89bf7f9008.js" crossorigin="anonymous"></script>
- <link rel="stylesheet" href="style.css">
- <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous" defer></script>
- <script src="app.js" defer></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172971484-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-172971484-1');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seola Portfolio</title>
+  <script src="https://kit.fontawesome.com/89bf7f9008.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous" defer></script>
+  <script src="app.js" defer></script>
 </head>
 <body>
-    <header>   
-       <ul>
-        <div class="link"><a href="#AboutMe"><li>AboutMe</li></a></div>
-        <div class="link"><a href="#Project"><li>Project</li></a></div>
-        <div class="link"><a href="#Contact"><li>Contact</li></a></div>
+  <header id="navbar">   
+      <ul>
+        <a href="html/aboutme.html"><li>AboutMe</li></a>
+        <a href="html/portfolio.html"><li>Project</li></a>
+        <a href="html/contact.html"><li>Contact</li></a>
         <div class="hamburger">☰</div>
-       </ul>  
-    </header> 
+      </ul>  
+  </header> 
+
+  <div class="title">
+  <div><img class="responsive" src="https://res.cloudinary.com/dqduwnrb1/image/upload/v1594823310/lum3n--RBuQ2PK_L8-unsplash_gysb8h.jpg" alt="picture"></div>
+  <h1 id="name">Seola Carrano</h1>
+  <p id="introduction">web developer based in NYC</p>
+  </div>
      
-     <div class="title">
+    <!----------------------- About me ----------------------->
+     <!-- <div class="title">
      <div><img class="responsive" src="https://res.cloudinary.com/dqduwnrb1/image/upload/v1594823310/lum3n--RBuQ2PK_L8-unsplash_gysb8h.jpg" alt="picture"></div>
      <h1 id="name">Seola Carrano</h1>
      <p id="introduction">web developer based in NYC</p>
@@ -36,8 +42,11 @@
     <section id="AboutMe">
      <p class="bar"> About Me </p>
      <p id="aboutme"> Hi! I'm currently learning software engineering. <br>I'm interested in education and web development, <br>so I want to combine them together and make useful tools for everyone. </p>
-   </section>
-    <section id="Project">
+   </section> -->
+
+
+   <!----------------------- Portfolio ----------------------->
+    <!-- <section id="Project">
      <p class="bar"> Project </p>
      <p id="projectpreview"></p>
     </section>
@@ -55,11 +64,11 @@
     <a href="#slide-3">3</a>
     <a href="#slide-4">4</a>
     <a href="#slide-5">5</a>
-    </div>
+    </div> -->
 
-    <section id="Contact">
+    <!----------------------- Contact ----------------------->
+    <!-- <section id="Contact">
      <p class="bar"> Contact </p>
-     <!--Google form-->
      <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdhwDdBjrDuEXa71NfC7cCNWqkQfqv3JfoZjZrHEYHVxeihoA/formResponse" 
       method="POST" id="mG61Hd">
      <input id="username" name="entry.802048838" type="text" placeholder="NAME">
@@ -67,14 +76,15 @@
      <textarea id="message" name="entry.1227782644" type="text" placeholder="MESSAGE"></textarea>
      <input id="submit" type="submit" value="SEND">
      </form>
-   </section>
+   </section> -->
 
-
-    <footer>  
+    
+    <!----------------------- footer ----------------------->
+    <!-- <footer>  
     <a href="mailto: carrano.seola@gmail.com" target="_blank"><i class="far fa-envelope fa-2x"></i></a>
     <a href="https://www.linkedin.com/in/seola-carrano" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
     <a href="https://github.com/seolacarrano" target="_blank"><i class="fab fa-github fa-2x"></i></a>
-    </footer>
+    </footer> -->
     
 </body>
 </html>

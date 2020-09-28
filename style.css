@@ -6,18 +6,17 @@ body {
  padding: 0;
 }
 
-header {
+
+/*----------------------menu bar----------------------*/
+#navbar {
  display: flex;
- align-items: center;
  justify-content: flex-end;
- flex-direction: row;
+ /* background: #8380B6; */
  background: #f0a6ca;
- color: #f0e6ef;
- margin: 0;
- padding: 10;
+ color: #CC3363;
+ overflow: hidden;
 }
 
-/*menu bar*/
 ul {
  display: flex;
  align-items: center;
@@ -36,10 +35,6 @@ li:hover {
  font-size: x-large;
 }
 
-.link {
- display: block;
-}
-
 a {
  text-decoration: none;
  color: #f0e6ef;
@@ -48,6 +43,13 @@ a {
 .hamburger {
  display: none;
  margin-right: 20px;;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /* padding-top: 60px; */
 }
 
 .title {
@@ -92,6 +94,9 @@ a {
  font-size: 20px;
  font-family: 'Roboto Mono', monospace;
  font-weight: 300;
+ padding-left: 30px;
+ padding-right: 30px;
+ padding-top: 30px;
  padding-bottom: 50px;
 }
 
@@ -106,37 +111,50 @@ a {
  font-size: xxx-large;
 }
 
-/*grid*/
-#projectpreview {
+/*----------------------portfolio----------------------*/
+#project-container {
  display: block;
  display: flex;
  flex-wrap: wrap;
- flex-direction: row; 
- justify-content: space-around;
- padding-bottom: 70px;
+ flex-direction: column; 
+ align-items: center;
 }
 
 .preview {
- display: grid;
- grid-template-columns: 1fr; 
+ display: flex;
+ flex-direction: row;
+ padding-top: 50px;
+ padding-bottom: 50px;
 }
 
-.nameofproject {
- display: grid;
+/* .nameofproject {
+ display: flex;
+ flex-direction: row;
  height: auto;
  width: auto;
  text-align: center;
-}
+} */
 
 .imageofproject {
+ display: flex;
+ flex-direction: row;
  height: 300px;
  width: 300px;
 }
 
 .description {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
  width: 300px;
  font-family: 'Roboto Mono', monospace;
  font-weight: 300;
+}
+
+.linktoproject {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
 }
 
 
@@ -215,7 +233,8 @@ a {
  display: flex;
  flex-direction: column;
  align-items: center;
- margin-bottom: 30px;
+ margin-top: 150px;
+ margin-bottom: 110px;
 }
 
 input {
@@ -278,7 +297,7 @@ textarea:hover {
 }
 
 
-/*social media icons in footer*/
+/*----------------------social media icons in footer----------------------*/
 footer {
  height: 60px;
  display: flex;
@@ -304,7 +323,7 @@ footer {
 }
 
 
-/*responsive*/
+/*----------------------responsive----------------------*/
 @media (max-width: 375px) {
  .hamburger {
   display: block;
