@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400&display=swap');
+
+body {
+ margin: 0;
+ padding: 0;
+}
+
+
+/*----------------------menu bar----------------------*/
+#navbar {
+  display: flex;
+  justify-content: flex-end;
+  background: #f0a6ca;
+  /* background-color: #000; */
+  color: #CC3363;
+  overflow: hidden;
+  /* position: fixed; Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 900;
+ }
+
+.link {
+  display: block;
+  display: flex;
+  flex-direction: row;
+ }
+
+li {
+ display: block;
+ margin-left: 30px;
+ margin-right: 30px;
+}
+
+li:hover {
+ font-size: x-large;
+}
+
+a {
+ text-decoration: none;
+ color: #f0e6ef;
+}
+
+.hamburger {
+ display: none;
+ margin-right: 20px;;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /* padding-top: 60px; */
+}
+
+
+/*----------------------main page----------------------*/
+.title {
+ text-align: center;
+ position: relative;
+}
+
+.main-image {
+ width: 100%;
+ height: 80%;
+ /* max-width: 1000px;
+ max-height: 600px;
+ margin-top: 10px; */
+}
+
+/* .name {
+  font-size: 35px;
+  font-family: 'Roboto Mono', monospace;
+  margin-right: 2%;
+  margin-top: 100%;
+}
+
+.introduction{
+ margin: 0 auto;
+ font-size: 20px;
+ font-family: 'Roboto Mono', monospace;
+ font-weight: 300;
+} */
+
+.name{
+  font-family: 'Roboto Mono', monospace;
+  position: absolute;
+  top: 50%;  
+  left: 39%;
+  /* width: 24em; */
+  margin: 0 auto;
+  /* border-right: 2px solid rgba(255,255,255,.75); */
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+animation: typewriter 4s steps(44) 1s 1 normal both,
+           blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+from{width: 0;}
+to{width: 8em;}
+}
+/* @keyframes blinkTextCursor{
+from{border-right-color: black;}
+to{border-right-color: transparent;}
+} */
+
+/*----------------------about me page----------------------*/
+/* .bar {
+ background: #b8bedd;
+ text-align: center;
+ padding-top: 15px;    
+ color: #f0e6ef;
+ height: 50px;
+ font-family: "Lucida Console", Courier, monospace;
+ font-style: italix;
+ font-size: 30px;
+} */
+
+
+#name {
+  padding-top: 100px;
+}
+
+#aboutme {
+ text-align: center;
+ font-size: 20px;
+ font-family: 'Roboto Mono', monospace;
+ font-weight: 300;
+ padding-left: 30px;
+ padding-right: 30px;
+ padding-top: 30px;
+ padding-bottom: 50px;
+}
+
+.fa-codepen {
+ display: flex;
+ justify-content: center;
+ color: black;
+ text-align: center;
+}
+
+.fa-codepen:hover {
+ font-size: xxx-large;
+}
+
+/*----------------------portfolio page----------------------*/
+#project-container {
+ display: block;
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: column; 
+ align-items: center;
+ margin-top: 50px;
+}
+
+.preview {
+ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ display: flex;
+ flex-direction: row;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ padding-left: 20px;
+ padding-right: 20px;
+ margin-left: 100px;
+ margin-right: 100px;
+ margin-bottom: 80px;
+}
+
+/* .nameofproject {
+ display: flex;
+ flex-direction: row;
+ height: auto;
+ width: auto;
+ text-align: center;
+} */
+
+.imageofproject {
+ display: flex;
+ flex-direction: row;
+ height: 40%;
+ width: 30%;
+ margin-right: 30px;
+}
+
+.description {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ width: auto;
+ font-family: 'Roboto Mono', monospace;
+ font-weight: 300;
+}
+
+.linktoproject {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+}
+
+
+/*carousel https://css-tricks.com/css-only-carousel*/
+.slider {
+ display: none;
+ width: 350px;
+ text-align: center;
+ overflow: hidden;
+}
+  
+.slides {
+ display: flex;
+ justify-items: center;
+ overflow-x: auto;
+ scroll-snap-type: x mandatory;
+ scroll-behavior: smooth;
+ -webkit-overflow-scrolling: touch;
+}
+
+.slides > div {
+ margin-left: auto;
+}
+
+.slides::-webkit-scrollbar {
+ width: 10px;
+ height: 10px;
+}
+
+.slides::-webkit-scrollbar-thumb {
+ background: black;
+ border-radius: 10px;
+}
+
+.slides::-webkit-scrollbar-track {
+ background: transparent;
+}
+   
+.slider > a {
+ display: inline-flex;
+ width: 1.5rem;
+ height: 1.5rem;
+ background: black;
+ color: white;
+ text-decoration: none;
+ align-items: center;
+ justify-content: center;
+ border-radius: 50%;
+ margin: 0 0 0.5rem 0;
+ position: relative;
+}
+
+.slider > a:active {
+ top: 1px;
+}
+
+.slider > a:focus {
+ background: #000;
+}
+  
+@supports (scroll-snap-type) {
+ .slider > a {
+ display: none;
+ }
+}
+
+
+/*----------------------contact page----------------------*/
+
+::placeholder {
+ font-family: 'Roboto Mono', monospace;
+ color: darkgrey;
+}
+
+#mG61Hd {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 150px;
+ margin-bottom: 110px;
+}
+
+input {
+ font-family: 'Roboto Mono', monospace;
+ display: flex;
+ align-content: center;
+ width: 80%;
+ max-width: 600px;
+ height: 50px;
+ background: transparent;
+ outline: none;
+ border: solid 1px #b8bedd;
+ border-bottom: none;
+ transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+ background: #f0e6ef;
+ color:#b8bedd;
+}
+
+textarea {
+ padding-top: 5px;
+ font-family: 'Roboto Mono', monospace;
+ display: flex;
+ align-content: center;
+ width: 80%;
+ max-width: 600px;
+ height: 110px;
+ max-height: 110px;
+ background: transparent;
+ outline: none;
+ color: #726659;
+ font-family: sans-serif;
+ font-size: 0.875em;
+ border: solid 1px#b8bedd;
+ transition: all 0.3s ease-in-out;
+ }
+  
+textarea:hover {
+ background:#f0e6ef;
+ color: #e2dedb;
+}
+ 
+#submit {
+ width: 50px;
+ font-family: 'Roboto Mono', monospace;
+ font-size: 0.875em;
+ text-align: right;
+ color: #b3aca7;
+ outline:none;
+ cursor: pointer;
+ border: solid 1px #b8bedd;
+ margin: auto;
+ margin-top: 10px;
+}
+  
+#submit:hover {
+ background: #b8bedd;
+}
+
+
+/*----------------------social media icons in footer----------------------*/
+footer {
+ height: 60px;
+ display: flex;
+ justify-content: center;
+ background: #f0e6ef;
+ bottom: 0;
+ position: absolute;
+ width: 100%;
+}
+
+.fa-envelope {
+ color: red;
+ margin-right: 20px;
+ margin-top: 20px;
+}
+
+.fa-linkedin {
+ color: #2867B2;
+ margin-right: 20px;
+ margin-top: 20px;
+}
+
+.fa-github {
+ color: black;
+ margin-top: 20px;
+}
+
+
+/*----------------------responsive----------------------*/
+@media (max-width: 1141px) {
+  #project-container {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    /* align-items: center; */
+    margin-top: 50px;
+   }
+   
+   .preview {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 80px;
+   }
+   
+   .imageofproject {
+    display: flex;
+    flex-direction: row;
+    height: 40%;
+    width: 30%;
+    margin-right: 30px;
+   }
+   
+   .description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+   }
+   
+   .linktoproject {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   }
+}
+
+
+@media (max-width: 375px) {
+ .hamburger {
+  display: block;
+  }
+ 
+  .link {
+   display: none;
+   }
+
+  li {
+    margin-top: 5px;
+  }
+ 
+  nav {
+   width: 20%;
+   display: block;
+  }
+    
+  .slider {
+    display: block;
+  }
+   
+  #projectpreview {
+   display: none;
+  }
+
+  input {
+   width: 300px;
+   margin: 0 15 0 15;
+  }
+
+  textarea {
+   width: 300px;
+   margin: 0 15 0 15;
+  }
+  
+  #submit {
+   width: 50px;
+   margin: auto;
+   margin-top: 10px;
+ }
+
+}
