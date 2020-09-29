@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
 body {
  /* margin: 0;
@@ -12,12 +13,14 @@ body {
 
 
 /*----------------------menu bar----------------------*/
-#menu {
- display: flex;
- flex-direction: column; 
- /* background: #f0a6ca; */
- color: #CC3363;
- overflow: hidden;
+#navbar {
+  display: flex;
+  justify-content: flex-end;
+  color: #CC3363;
+  overflow: hidden;
+  /* position: fixed; Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
 }
 
 ul {
@@ -73,306 +76,176 @@ a {
  background-size: cover;
 } */
 
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
+.profile {
+  display: none;
 }
 
-.hero-text{
-  font-family: 'Roboto Mono', monospace;
-  position: absolute;
-  top: 50%;  
-  left: 39%;
-  /* width: 24em; */
-  margin: 0 auto;
-  /* border-right: 2px solid rgba(255,255,255,.75); */
-  font-size: 180%;
+.main-text {
   text-align: center;
+  padding-top: 15%;
+  padding-left: 30%;
+  margin-right: 10%;
+  color: white;
+  width: 100%;
+}
+
+.name, .job {
+  /* border-right: .15em solid white; */
+  font-family: 'Rock Salt', cursive;
+  font-size: 200%;
   white-space: nowrap;
   overflow: hidden;
-  transform: translateY(-50%);    
+}
+.name {
+  width: 10em;
+  -webkit-animation: type 2s steps(40, end);
+  animation: type 2s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
-/* Animation */
-.anim-typewriter{
-animation: typewriter 4s steps(44) 1s 1 normal both,
-           blinkTextCursor 500ms steps(44) infinite normal;
-}
-@keyframes typewriter{
-from{width: 3;}
-to{width: 5em;}
+.name {
+  width: 10em;
+  opacity: 0;
+  -webkit-animation: type2 2s steps(40, end);
+  animation: type2 2s steps(40, end);
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
-.anim-typewriter2{
-  animation: typewriter 4s steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) infinite normal;
+.name {
+  width: 10em;
+  opacity: 0;
+  -webkit-animation: type3 3s steps(40, end), blink .5s step-end infinite alternate;
+  animation: type3 5s steps(40, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.job {
+  width: 17em;
+  -webkit-animation: type4 2s steps(40, end);
+  animation: type 2s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.job {
+  width: 17em;
+  opacity: 0;
+  -webkit-animation: type5 2s steps(40, end);
+  animation: type2 2s steps(40, end);
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.job {
+  width: 17em;
+  opacity: 0;
+  -webkit-animation: type6 3s steps(40, end), blink .5s step-end infinite alternate;
+  animation: type3 5s steps(40, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
   }
-  @keyframes typewriter{
-  from{width: 0;}
-  to{width: 10em;}
+  99.9% {
+    border-right: .15em solid orange;
   }
-/* @keyframes blinkTextCursor{
-from{border-right-color: black;}
-to{border-right-color: transparent;}
+  100% {
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* @keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
 } */
-
-/* .main-image {
- width: 100%;
- height: 80%;
- /* max-width: 1000px;
- max-height: 600px;
- margin-top: 10px; */
-
-
-/* .responsive {
-  width: 100%;
-  height: 100%;
-} */
-
-/* .name {
-  font-size: 35px;
-  font-family: 'Roboto Mono', monospace;
-  margin-right: 2%;
-  margin-top: 100%;
-}
-
-.introduction{
- margin: 0 auto;
- font-size: 20px;
- font-family: 'Roboto Mono', monospace;
- font-weight: 300;
-} */
-
-/*----------------------about me page----------------------*/
-/* .bar {
- background: #b8bedd;
- text-align: center;
- padding-top: 15px;    
- color: #f0e6ef;
- height: 50px;
- font-family: "Lucida Console", Courier, monospace;
- font-style: italix;
- font-size: 30px;
-} */
-
-#aboutme {
- text-align: center;
- font-size: 20px;
- font-family: 'Roboto Mono', monospace;
- font-weight: 300;
- padding-left: 30px;
- padding-right: 30px;
- padding-top: 30px;
- padding-bottom: 50px;
-}
-
-.fa-codepen {
- display: flex;
- justify-content: center;
- color: black;
- text-align: center;
-}
-
-.fa-codepen:hover {
- font-size: xxx-large;
-}
-
-/*----------------------portfolio page----------------------*/
-#project-container {
- display: block;
- display: flex;
- flex-wrap: wrap;
- flex-direction: column; 
- align-items: center;
- margin-top: 50px;
-}
-
-.preview {
- box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
- display: flex;
- flex-direction: row;
- padding-top: 20px;
- padding-bottom: 20px;
- padding-left: 20px;
- padding-right: 20px;
- margin-left: 100px;
- margin-right: 100px;
- margin-bottom: 80px;
-}
-
-/* .nameofproject {
- display: flex;
- flex-direction: row;
- height: auto;
- width: auto;
- text-align: center;
-} */
-
-.imageofproject {
- display: flex;
- flex-direction: row;
- height: 40%;
- width: 30%;
- margin-right: 30px;
-}
-
-.description {
- display: flex;
- flex-direction: row;
- align-items: center;
- width: auto;
- font-family: 'Roboto Mono', monospace;
- font-weight: 300;
-}
-
-.linktoproject {
- display: flex;
- flex-direction: row;
- align-items: center;
-}
-
-
-/*carousel https://css-tricks.com/css-only-carousel*/
-.slider {
- display: none;
- width: 350px;
- text-align: center;
- overflow: hidden;
-}
-  
-.slides {
- display: flex;
- justify-items: center;
- overflow-x: auto;
- scroll-snap-type: x mandatory;
- scroll-behavior: smooth;
- -webkit-overflow-scrolling: touch;
-}
-
-.slides > div {
- margin-left: auto;
-}
-
-.slides::-webkit-scrollbar {
- width: 10px;
- height: 10px;
-}
-
-.slides::-webkit-scrollbar-thumb {
- background: black;
- border-radius: 10px;
-}
-
-.slides::-webkit-scrollbar-track {
- background: transparent;
-}
-   
-.slider > a {
- display: inline-flex;
- width: 1.5rem;
- height: 1.5rem;
- background: black;
- color: white;
- text-decoration: none;
- align-items: center;
- justify-content: center;
- border-radius: 50%;
- margin: 0 0 0.5rem 0;
- position: relative;
-}
-
-.slider > a:active {
- top: 1px;
-}
-
-.slider > a:focus {
- background: #000;
-}
-  
-@supports (scroll-snap-type) {
- .slider > a {
- display: none;
- }
-}
-
-
-/*----------------------contact page----------------------*/
-
-::placeholder {
- font-family: 'Roboto Mono', monospace;
- color: darkgrey;
-}
-
-#mG61Hd {
- display: flex;
- flex-direction: column;
- align-items: center;
- margin-top: 150px;
- margin-bottom: 110px;
-}
-
-input {
- font-family: 'Roboto Mono', monospace;
- display: flex;
- align-content: center;
- width: 80%;
- max-width: 600px;
- height: 50px;
- background: transparent;
- outline: none;
- border: solid 1px #b8bedd;
- border-bottom: none;
- transition: all 0.3s ease-in-out;
-}
-
-input:hover {
- background: #f0e6ef;
- color:#b8bedd;
-}
-
-textarea {
- padding-top: 5px;
- font-family: 'Roboto Mono', monospace;
- display: flex;
- align-content: center;
- width: 80%;
- max-width: 600px;
- height: 110px;
- max-height: 110px;
- background: transparent;
- outline: none;
- color: #726659;
- font-family: sans-serif;
- font-size: 0.875em;
- border: solid 1px#b8bedd;
- transition: all 0.3s ease-in-out;
- }
-  
-textarea:hover {
- background:#f0e6ef;
- color: #e2dedb;
-}
- 
-#submit {
- width: 50px;
- font-family: 'Roboto Mono', monospace;
- font-size: 0.875em;
- text-align: right;
- color: #b3aca7;
- outline:none;
- cursor: pointer;
- border: solid 1px #b8bedd;
- margin: auto;
- margin-top: 10px;
-}
-  
-#submit:hover {
- background: #b8bedd;
-}
 
 
 /*----------------------social media icons in footer----------------------*/
@@ -405,54 +278,6 @@ footer {
 
 
 /*----------------------responsive----------------------*/
-@media (max-width: 1141px) {
-  #project-container {
-
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row; 
-    /* align-items: center; */
-    margin-top: 50px;
-   }
-   
-   .preview {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    display: flex;
-    flex-direction: row;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 80px;
-   }
-   
-   .imageofproject {
-    display: flex;
-    flex-direction: row;
-    height: 40%;
-    width: 30%;
-    margin-right: 30px;
-   }
-   
-   .description {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: auto;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 300;
-   }
-   
-   .linktoproject {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-   }
-}
-
-
 @media (max-width: 375px) {
  .hamburger {
   display: block;
@@ -470,29 +295,28 @@ footer {
    width: 20%;
    display: block;
   }
-    
-  .slider {
+
+  .profile {
     display: block;
-  }
-   
-  #projectpreview {
-   display: none;
-  }
-
-  input {
-   width: 300px;
-   margin: 0 15 0 15;
+    width: 50%;
+    height: 30%;
+    border-radius: 50%;
+    padding-left: 20%;
+    padding: auto;
   }
 
-  textarea {
-   width: 300px;
-   margin: 0 15 0 15;
+  .main-text{
+    font-size: 35%;
+    padding-left: 5%;
   }
-  
-  #submit {
-   width: 50px;
-   margin: auto;
-   margin-top: 10px;
- }
+
+  .name {
+    padding-left: 20%;
+    margin-top: 10%;
+  }
+
+  .job {
+    padding-left: 20%;
+  }
 
 }
