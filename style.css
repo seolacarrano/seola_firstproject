@@ -83,20 +83,25 @@ a {
 .main-text {
   text-align: center;
   padding-top: 15%;
-  padding-left: 30%;
-  margin-right: 10%;
+  /* padding-left: 30%; */
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
   color: white;
-  width: 100%;
+  /* max-width: 100%; */
 }
 
-.name, .job {
+.anim-typewriter {
   /* border-right: .15em solid white; */
   font-family: 'Rock Salt', cursive;
   font-size: 200%;
   white-space: nowrap;
   overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
 }
-.name {
+
+.anim-typewriter {
   width: 10em;
   -webkit-animation: type 2s steps(40, end);
   animation: type 2s steps(40, end);
@@ -104,7 +109,7 @@ a {
   animation-fill-mode: forwards;
 }
 
-.name {
+.anim-typewriter {
   width: 10em;
   opacity: 0;
   -webkit-animation: type2 2s steps(40, end);
@@ -115,40 +120,10 @@ a {
   animation-fill-mode: forwards;
 }
 
-.name {
-  width: 10em;
+.anim-typewriter {
+  width: 13em;
   opacity: 0;
   -webkit-animation: type3 3s steps(40, end), blink .5s step-end infinite alternate;
-  animation: type3 5s steps(40, end), blink .5s step-end infinite alternate;
-  -webkit-animation-delay: 0.3s;
-  animation-delay: 0.3s;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-.job {
-  width: 17em;
-  -webkit-animation: type4 2s steps(40, end);
-  animation: type 2s steps(40, end);
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-.job {
-  width: 17em;
-  opacity: 0;
-  -webkit-animation: type5 2s steps(40, end);
-  animation: type2 2s steps(40, end);
-  -webkit-animation-delay: 0.2s;
-  animation-delay: 0.2s;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-.job {
-  width: 17em;
-  opacity: 0;
-  -webkit-animation: type6 3s steps(40, end), blink .5s step-end infinite alternate;
   animation: type3 5s steps(40, end), blink .5s step-end infinite alternate;
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;

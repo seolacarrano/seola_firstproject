@@ -63,79 +63,28 @@ a {
 }
 
 
-/*----------------------main page----------------------*/
-.title {
- text-align: center;
- position: relative;
-}
-
-.main-image {
- width: 100%;
- height: 80%;
- /* max-width: 1000px;
- max-height: 600px;
- margin-top: 10px; */
-}
-
-/* .name {
-  font-size: 35px;
-  font-family: 'Roboto Mono', monospace;
-  margin-right: 2%;
-  margin-top: 100%;
-}
-
-.introduction{
- margin: 0 auto;
- font-size: 20px;
- font-family: 'Roboto Mono', monospace;
- font-weight: 300;
-} */
-
-.name{
-  font-family: 'Roboto Mono', monospace;
-  position: absolute;
-  top: 50%;  
-  left: 39%;
-  /* width: 24em; */
-  margin: 0 auto;
-  /* border-right: 2px solid rgba(255,255,255,.75); */
-  font-size: 180%;
-  text-align: center;
-  white-space: nowrap;
-  overflow: hidden;
-  transform: translateY(-50%);    
-}
-
-/* Animation */
-.anim-typewriter{
-animation: typewriter 4s steps(44) 1s 1 normal both,
-           blinkTextCursor 500ms steps(44) infinite normal;
-}
-@keyframes typewriter{
-from{width: 0;}
-to{width: 8em;}
-}
-/* @keyframes blinkTextCursor{
-from{border-right-color: black;}
-to{border-right-color: transparent;}
-} */
-
 /*----------------------about me page----------------------*/
-/* .bar {
- background: #b8bedd;
- text-align: center;
- padding-top: 15px;    
- color: #f0e6ef;
- height: 50px;
- font-family: "Lucida Console", Courier, monospace;
- font-style: italix;
- font-size: 30px;
-} */
-
-
-#name {
-  padding-top: 100px;
+.aboutmepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+#blank {
+  height: 100px;
+}
+
+.profile {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+#name, #introduction {
+  font-family: 'Epilogue', sans-serif;
+  padding-top: 10px;
+  margin: 0 auto;
+} 
 
 #aboutme {
  text-align: center;
@@ -146,17 +95,6 @@ to{border-right-color: transparent;}
  padding-right: 30px;
  padding-top: 30px;
  padding-bottom: 50px;
-}
-
-.fa-codepen {
- display: flex;
- justify-content: center;
- color: black;
- text-align: center;
-}
-
-.fa-codepen:hover {
- font-size: xxx-large;
 }
 
 /*----------------------portfolio page----------------------*/
