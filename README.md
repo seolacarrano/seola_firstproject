@@ -104,6 +104,6 @@ This portfolio is responsive to different devices such as mobile, tablet, and de
 
 
 ## Final Website
-- [project](https://app.netlify.com/sites/seolacarrano-portfolio/settings/domain)
+- [project](https://www.seolacarrano.com)
 
 
