@@ -71,28 +71,23 @@ a {
 
 .main-text {
   text-align: center;
-  padding-top: 65%;
-  /* padding-left: 30%; */
-  /* margin-left: auto; */
+  padding-top: 200px;
+  padding-left: 5%;
   margin-right: auto;
-  /* width: 50%; */
   color: white;
-  /* max-width: 100%; */
+  font-family: 'Rock Salt', cursive;
 }
 
 .anim-typewriter {
   /* border-right: .15em solid white; */
-  font-family: 'Rock Salt', cursive;
-  font-size: 200%;
+  font-size: 180%;
   white-space: nowrap;
   overflow: hidden;
-  /* margin-left: auto;
-  margin-right: auto; */
 }
 
 .anim-typewriter {
   width: 10em;
-  -webkit-animation: type 2s steps(40, end);
+  -webkit-animation: type 1s steps(40, end);
   animation: type 2s steps(40, end);
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
@@ -101,7 +96,7 @@ a {
 .anim-typewriter {
   width: 10em;
   opacity: 0;
-  -webkit-animation: type2 2s steps(40, end);
+  -webkit-animation: type2 1s steps(40, end);
   animation: type2 2s steps(40, end);
   -webkit-animation-delay: 0.2s;
   animation-delay: 0.2s;
@@ -112,7 +107,7 @@ a {
 .anim-typewriter {
   width: 13em;
   opacity: 0;
-  -webkit-animation: type3 3s steps(40, end), blink .5s step-end infinite alternate;
+  -webkit-animation: type3 2s steps(40, end), blink .5s step-end infinite alternate;
   animation: type3 5s steps(40, end), blink .5s step-end infinite alternate;
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
@@ -124,9 +119,6 @@ a {
   0% {
     width: 0;
   }
-  99.9% {
-    border-right: .15em solid orange;
-  }
   100% {
     border: none;
   }
@@ -135,9 +127,6 @@ a {
 @-webkit-keyframes type {
   0% {
     width: 0;
-  }
-  99.9% {
-    border-right: .15em solid orange;
   }
   100% {
     border: none;
@@ -151,9 +140,6 @@ a {
   1% {
     opacity: 1;
   }
-  99.9% {
-    border-right: .15em solid orange;
-  }
   100% {
     opacity: 1;
     border: none;
@@ -166,9 +152,6 @@ a {
   }
   1% {
     opacity: 1;
-  }
-  99.9% {
-    border-right: .15em solid orange;
   }
   100% {
     opacity: 1;
@@ -199,17 +182,6 @@ a {
     opacity: 1;
   }
 }
-
-/* @keyframes blink {
-  50% {
-    border-color: transparent;
-  }
-}
-@-webkit-keyframes blink {
-  50% {
-    border-color: tranparent;
-  }
-} */
 
 
 /*----------------------social media icons in footer----------------------*/
@@ -242,7 +214,7 @@ footer {
 
 
 /*----------------------responsive----------------------*/
-@media (max-width: 375px) {
+@media (max-width: 414px) {
  .hamburger {
   display: block;
   }
@@ -271,6 +243,7 @@ footer {
 
   .main-text{
     font-size: 65%;
+    margin-left: 45px;
   }
 
   .name {
