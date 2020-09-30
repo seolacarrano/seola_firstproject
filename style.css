@@ -83,6 +83,7 @@ a {
   font-size: 180%;
   white-space: nowrap;
   overflow: hidden;
+  margin: auto;
 }
 
 .anim-typewriter {
@@ -229,7 +230,7 @@ footer {
 
   .main-text{
     font-size: 65%;
-    margin-left: 45px;
+    /* margin-left: 45px; */
   }
 
   .name {
@@ -241,4 +242,10 @@ footer {
     padding-left: 20%;
   }
 
+}
+
+@media (max-width: 320px) {
+  .main-text{
+    margin-top: -50px;
+  }
 }

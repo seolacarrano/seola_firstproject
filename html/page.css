@@ -91,7 +91,27 @@ a {
   display: flex;
   justify-content: center;
   width: 100%;
-   
+}
+
+#resume{
+  font-family: 'Epilogue', sans-serif;
+  border: none;
+  color: white;
+  background-color: #A882DD;
+  cursor: pointer;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 27px;
+  margin-left: 12px;
+  border-radius: 50%;
+}
+
+#resume:hover {background-color: #0EB1D2}
+
+#resume:active {
+  background-color: #49416D;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 #aboutme {
@@ -161,69 +181,6 @@ a {
   color: black;
  }
 
-/*carousel https://css-tricks.com/css-only-carousel*/
-/* .slider {
- display: none;
- width: 350px;
- text-align: center;
- overflow: hidden;
-}
-  
-.slides {
- display: flex;
- justify-items: center;
- overflow-x: auto;
- scroll-snap-type: x mandatory;
- scroll-behavior: smooth;
- -webkit-overflow-scrolling: touch;
-}
-
-.slides > div {
- margin-left: auto;
-}
-
-.slides::-webkit-scrollbar {
- width: 10px;
- height: 10px;
-}
-
-.slides::-webkit-scrollbar-thumb {
- background: black;
- border-radius: 10px;
-}
-
-.slides::-webkit-scrollbar-track {
- background: transparent;
-}
-   
-.slider > a {
- display: inline-flex;
- width: 1.5rem;
- height: 1.5rem;
- background: black;
- color: white;
- text-decoration: none;
- align-items: center;
- justify-content: center;
- border-radius: 50%;
- margin: 0 0 0.5rem 0;
- position: relative;
-}
-
-.slider > a:active {
- top: 1px;
-}
-
-.slider > a:focus {
- background: #000;
-}
-  
-@supports (scroll-snap-type) {
- .slider > a {
- display: none;
- }
-} */
-
 
 /*----------------------contact page----------------------*/
 
@@ -236,7 +193,7 @@ a {
  display: flex;
  flex-direction: column;
  align-items: center;
- margin-top: 150px;
+ margin-top: 50px;
  margin-bottom: 110px;
 }
 
@@ -300,15 +257,16 @@ textarea:hover {
 }
 
 
-/*----------------------social media icons in footer----------------------*/
-footer {
+/*----------------------social media icons----------------------*/
+.contact {
  height: 60px;
  display: flex;
  justify-content: center;
- background: #f0e6ef;
- bottom: 0;
- position: absolute;
+ /* background: #f0e6ef; */
+ /* bottom: 0;
+ position: absolute; */
  width: 100%;
+ margin-top: 150px;
 }
 
 .fa-envelope {
@@ -376,7 +334,7 @@ footer {
    
    .linktogithub {
      margin: auto;
-     margin-top: -20px;
+     margin-top: -10px;
     }
 }
 
