@@ -71,7 +71,7 @@ a {
 
 .main-text {
   text-align: center;
-  padding-top: 200px;
+  padding-top: 150px;
   padding-left: 5%;
   margin-right: auto;
   color: white;
@@ -186,41 +186,27 @@ a {
 
 /*----------------------social media icons in footer----------------------*/
 footer {
- height: 60px;
- display: flex;
- justify-content: center;
- background: #f0e6ef;
- bottom: 0;
- position: absolute;
- width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  bottom: 0;
+  position: absolute;
+  width: auto; 
 }
 
-.fa-envelope {
- color: red;
- margin-right: 20px;
- margin-top: 20px;
+.fa-envelope, .fa-linkedin, .fa-github {
+  margin-right: 20px;
+  margin-top: 20px;
 }
-
-.fa-linkedin {
- color: #2867B2;
- margin-right: 20px;
- margin-top: 20px;
-}
-
-.fa-github {
- color: black;
- margin-top: 20px;
-}
-
 
 /*----------------------responsive----------------------*/
 @media (max-width: 414px) {
  .hamburger {
-  display: block;
+    display: block;
   }
  
   .link {
-   display: none;
+    display: none;
    }
 
   li {
