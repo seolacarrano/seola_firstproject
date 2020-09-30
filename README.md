@@ -1,7 +1,7 @@
 # Project Overview
 
 ## Link 
-- [Portfolio](https://seolacarrano-portfolio.netlify.app/)
+- [Portfolio](https://www.seolacarrano.com)
 
 ## Project Schedule
 
@@ -101,9 +101,4 @@ This portfolio is responsive to different devices such as mobile, tablet, and de
 ## Issues and Resolutions
 **ERROR**: I didn't get any error message regarding this problem, but when I tried to use Bootstrap for carousel, my CSS was broken down
 **RESOLUTION**: I used CSS and HTML instead.
-
-
-## Final Website
-- [project](https://app.netlify.com/sites/seolacarrano-portfolio/settings/domain)
-
 
