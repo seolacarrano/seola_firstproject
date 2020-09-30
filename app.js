@@ -51,7 +51,8 @@ fetch(url)
                 title: entry.gsx$title.$t,
                 image: entry.gsx$image.$t,
                 description: entry.gsx$description.$t,
-                url: entry.gsx$url.$t
+                url: entry.gsx$url.$t,
+                github: entry.gsx$github.$t
              }
         })
         app(projects)
@@ -61,13 +62,15 @@ fetch(url)
    const app = (data) => {
    const createProjectElement = (project) => {
         const $div = $('<div>').addClass("preview")
-        // $div.append($('<h2>').addClass("nameofproject").text(project.title))
+        $div.append($('<h2>').addClass("nameofproject").text(project.title))
         $div.append($('<img>').addClass("imageofproject").attr('src', project.image))
         $div.append($('<p>').addClass("description").text(project.description))
-        $div.append($('<a>').addClass("linktoproject").attr('href', project.url).html('<i class="fab fa-codepen fa-2x"></i>'))
+        $div.append($('<a>').addClass("linktoproject").attr('href', project.url).html('<i class="fas fa-home"></i>'))
         $('.linktoproject').attr('target', '_blank')  
-        //$div.append($('<a>').attr('href', project.url).html('<i class="fab fa-codepen fa-2x"></i>'))
-        //$div.append($('<a>').addClass("linktoproject").attr('href', project.url).text('LINK >>>'))
+        $div.append($('<a>').addClass("linktogithub").attr('href', project.github).html('<i class="fab fa-github"></i>'))
+        $('.linktogithub').attr('target', '_blank')  
+        // $div.append($('<a>').addClass("linktoproject").attr('href', project.url).text('live server >>'))
+        // $('.linktoproject').attr('target', '_blank') 
         return $div
     }
 

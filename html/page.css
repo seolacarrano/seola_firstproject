@@ -70,8 +70,8 @@ a {
   align-items: center;
 }
 
-#blank {
-  height: 100px;
+.blank {
+  height: 80px;
 }
 
 .profile {
@@ -85,6 +85,14 @@ a {
   padding-top: 10px;
   margin: 0 auto;
 } 
+
+.icons {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+   
+}
 
 #aboutme {
  text-align: center;
@@ -120,13 +128,9 @@ a {
  margin-bottom: 80px;
 }
 
-/* .nameofproject {
- display: flex;
- flex-direction: row;
- height: auto;
- width: auto;
- text-align: center;
-} */
+.nameofproject {
+ display: none;
+}
 
 .imageofproject {
  display: flex;
@@ -146,14 +150,19 @@ a {
 }
 
 .linktoproject {
- display: flex;
- flex-direction: row;
- align-items: center;
+ margin-top: 80px;
+ margin-left: 5px;
+ color: black; 
 }
 
+.linktogithub {
+  margin-top: 60px;
+  margin-left: 5px;
+  color: black;
+ }
 
 /*carousel https://css-tricks.com/css-only-carousel*/
-.slider {
+/* .slider {
  display: none;
  width: 350px;
  text-align: center;
@@ -213,7 +222,7 @@ a {
  .slider > a {
  display: none;
  }
-}
+} */
 
 
 /*----------------------contact page----------------------*/
@@ -321,51 +330,54 @@ footer {
 
 
 /*----------------------responsive----------------------*/
-@media (max-width: 1141px) {
+@media (max-width: 1030px) {
   #project-container {
-
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex-direction: row; 
-    /* align-items: center; */
+    justify-content: center;
     margin-top: 50px;
    }
    
    .preview {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     display: flex;
-    flex-direction: row;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 80px;
+    flex-direction: column;
+    width: 30%;
+    margin-right: 5px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
    }
    
+
+   .nameofproject {
+     display: block;
+     font-family: 'Epilogue', sans-serif;
+     font-size: 100%;
+     text-align: center;
+     margin-top: 0;
+   }
+
    .imageofproject {
-    display: flex;
-    flex-direction: row;
-    height: 40%;
-    width: 30%;
-    margin-right: 30px;
+     margin: 0 auto;
+     width: 80%;
    }
    
    .description {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: auto;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 300;
+    display: none;
+   }
+
+   .linktoproject {
+     margin: auto;
+     padding-top: 10px;
    }
    
-   .linktoproject {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-   }
+   
+   .linktogithub {
+     margin: auto;
+     margin-top: -20px;
+    }
 }
 
 
