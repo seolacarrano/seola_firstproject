@@ -157,8 +157,8 @@ a {
 .imageofproject {
  display: flex;
  flex-direction: row;
- height: 40%;
- width: 30%;
+ height: 100%;
+ width: 100%;
  margin-right: 30px;
 }
 
